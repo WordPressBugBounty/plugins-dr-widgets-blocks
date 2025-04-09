@@ -1,0 +1,54 @@
+1.1.1: 2025-01-09
+- Fix: Recipe Post List 3 font issue has been fixed.
+- Updates: Updated icons of recipe search and recipe ingredients.
+
+1.1.0: 2024-12-31
+- Fix: Design issue with recipes wishlist button has been fixed.
+- Fix: Compatibility issue with carousel widgets for Elementor version 3.26.3 has been fixed.
+
+1.0.9: 2024-11-26
+- New Feature: 3 new widgets have been added.
+
+1.0.8: 2024-10-17
+- Fix: Warning thrown by Recipe Categories Two widget has been resolved.
+- Fix: Alignment issue in Recipe Categories Two widget has been fixed.
+
+1.0.7: 2024-10-16
+- Fix: Vulnerability found in the heading tag settings of the widgets has been patched.
+
+1.0.6: 2024-09-24
+- Updates: Compatibility Updates for WP v6.6
+- New Feature: Added import button in the Elementor page for users to import Recipe sections/templates easily.
+- New Feature: New height setting has been added for Recipe Grid Module Two layout 2.
+- Enhancement: Assets loading for the blocks and widgets has been optimized. 
+
+1.0.5: 2024-06-26
+- New Feature: Elementor Widgets - Recipe Categories 2 has been added.
+- New Feature: Elementor Widgets - Recipe Categories 3 has been added.
+- New Feature: Elementor Widgets - Recipe Grid 1 has been added.
+- New Feature: Elementor Widgets - Recipe Grid 2 has been added.
+- New Feature: Elementor Widgets - Recipe Post List 1 has been added.
+- New Feature: Elementor Widgets - Recipe Post List 2 has been added.
+- New Feature: Elementor Widgets - Recipe Post List 3 has been added.
+- New Feature: Elementor Widgets - Recipe Grid Module 1 has been added.
+- New Feature: Elementor Widgets - Recipe Grid Module 2 has been added.
+- New Feature: Elementor Widgets - Advanced Heading has been added.
+- Enhancement: New dashboard has been implemented for better user experience.
+- Updates: Update the Plugin's Name to Delisho in WordPress.org.
+
+1.0.4: 2024-04-15
+- Updates: Compatibility updates.
+
+1.0.3: 2023-05-31
+- Updates: Compatibility updates.
+
+1.0.2: 2022-12-12
+- Updates: Compatibility updates.
+
+1.0.1: 2022-08-26
+- New Feature: Gutenberg Blocks - Recipe Posts, Recipe Categories, Recipe Categories Tab and Recipe Posts Carousel blocks added.
+- New Feature: Blocks enable/disable configuration settings added.
+- Fixes: Minor bug fixes.
+
+1.0.0: 2022-07-04
+- New Feature: Initial Release.

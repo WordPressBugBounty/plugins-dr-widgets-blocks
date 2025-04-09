@@ -1,0 +1,327 @@
+{
+    "api_version": 2,
+    "name": "dr-widgets-blocks/recipe-categories",
+    "title": "Recipe Categories",
+    "category": "dr-widgets-blocks",
+    "attributes": {
+        "block_id": {
+            "type": "string"
+        },
+        "layout": {
+            "type": "string",
+            "default": "layout-1"
+        },
+        "categoriesPerRow": {
+            "type": "object",
+            "default": {
+                "desktop": 3,
+                "tablet": 2,
+                "mobile": 1
+            }
+        },
+        "columnsGap": {
+            "type": "object",
+            "default": {
+                "number": 30,
+                "unit": "px"
+            }
+        },
+        "rowsGap": {
+            "type": "object",
+            "default": {
+                "number": 30,
+                "unit": "px"
+            }
+        },
+        "taxonomy": {
+            "type": "string",
+            "default": "recipe-course"
+        },
+        "terms": {
+            "type": "array",
+            "default": []
+        },
+        "hideEmpty": {
+            "type": "boolean",
+            "default": false
+        },
+        "showCategoryImage": {
+            "type": "boolean",
+            "default": true
+        },
+        "showCategoryName": {
+            "type": "boolean",
+            "default": true
+        },
+        "categoryTag": {
+            "type": "string",
+            "default": "h3"
+        },
+        "showCategoryCount": {
+            "type": "boolean",
+            "default": true
+        },
+        "bgColorFrom": {
+            "type": "string",
+            "default": "default"
+        },
+        "backgroundColor": {
+            "type": "string",
+            "default": ""
+        },
+        "padding": {
+            "type": "object",
+            "default": {
+                "unit": "px",
+                "spacing": {
+                    "desktop": {
+                        "top": 30,
+                        "left": 30,
+                        "right": 30,
+                        "bottom": 30
+                    },
+                    "mobile": {
+                        "top": 30,
+                        "left": 30,
+                        "right": 30,
+                        "bottom": 30
+                    },
+                    "tablet": {
+                        "top": 30,
+                        "left": 30,
+                        "right": 30,
+                        "bottom": 30
+                    }
+                }
+            }
+        },
+        "border": {
+            "type": "object",
+            "default": {
+                "width": "1",
+                "style": "none",
+                "color": {
+                    "color": ""
+                }
+            }
+        },
+        "borderRadius": {
+            "type": "object",
+            "default": {
+                "unit": "px",
+                "spacing": {
+                    "desktop": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "mobile": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "tablet": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    }
+                }
+            }
+        },
+        "boxShadow": {
+            "type": "object",
+            "default": {
+                "enable": false,
+                "inset": false,
+                "horizontalOffset": 0,
+                "verticalOffset": 5,
+                "blur": 20,
+                "spread": 0,
+                "color": {
+                    "color": "rgba(210,213,218,0.2)"
+                }
+            }
+        },
+        "alignment": {
+            "type": "string",
+            "default": ""
+        },
+        "titleColor": {
+            "type": "string",
+            "default": ""
+        },
+        "titleHoverColor": {
+            "type": "string",
+            "default": "var(--primary-color)"
+        },
+        "titleTypography": {
+            "type": "object",
+            "default": {
+                "fontFamily": "Default",
+                "fontSize": {
+                    "desktop": {
+                        "number": 20,
+                        "unit": "px"
+                    },
+                    "tablet": {
+                        "number": 20,
+                        "unit": "px"
+                    },
+                    "mobile": {
+                        "number": 20,
+                        "unit": "px"
+                    }
+                },
+                "lineHeight": {
+                    "desktop": {
+                        "number": 1.55,
+                        "unit": "em"
+                    },
+                    "tablet": {
+                        "number": 1.55,
+                        "unit": "em"
+                    },
+                    "mobile": {
+                        "number": 1.55,
+                        "unit": "em"
+                    }
+                },
+                "letterSpacing": {
+                    "desktop": {
+                        "number": 0,
+                        "unit": "em"
+                    },
+                    "tablet": {
+                        "number": 0,
+                        "unit": "em"
+                    },
+                    "mobile": {
+                        "number": 0,
+                        "unit": "em"
+                    }
+                },
+                "variation": "n7",
+                "textTransform": "normal",
+                "textDecoration": "none"
+            }
+        },
+        "countPadding": {
+            "type": "object",
+            "default": {
+                "unit": "px",
+                "spacing": {
+                    "desktop": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "mobile": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "tablet": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    }
+                }
+            }
+        },
+        "countColor": {
+            "type": "string",
+            "default": ""
+        },
+        "countBgColor": {
+            "type": "string",
+            "default": ""
+        },
+        "countBorderRadius": {
+            "type": "object",
+            "default": {
+                "unit": "px",
+                "spacing": {
+                    "desktop": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "mobile": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "tablet": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    }
+                }
+            }
+        },
+        "countTypography": {
+            "type": "object",
+            "default": {
+                "fontFamily": "Default",
+                "variation": "n6",
+                "fontSize": {
+                    "desktop": {
+                        "number": 12,
+                        "unit": "px"
+                    },
+                    "tablet": {
+                        "number": 12,
+                        "unit": "px"
+                    },
+                    "mobile": {
+                        "number": 12,
+                        "unit": "px"
+                    }
+                },
+                "lineHeight": {
+                    "desktop": {
+                        "number": 1,
+                        "unit": "em"
+                    },
+                    "tablet": {
+                        "number": 1,
+                        "unit": "em"
+                    },
+                    "mobile": {
+                        "number": 1,
+                        "unit": "em"
+                    }
+                },
+                "letterSpacing": {
+                    "desktop": {
+                        "number": 0,
+                        "unit": "em"
+                    },
+                    "tablet": {
+                        "number": 0,
+                        "unit": "em"
+                    },
+                    "mobile": {
+                        "number": 0,
+                        "unit": "em"
+                    }
+                },
+                "textTransform": "uppercase",
+                "textDecoration": "none"
+            }
+        }
+    },
+    "style": [
+        "dr-widgetsBlocks-layouts",
+        "dr-widgetsBlocks-recipe-categories"
+    ]
+}

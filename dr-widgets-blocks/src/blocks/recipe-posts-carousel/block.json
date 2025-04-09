@@ -1,0 +1,482 @@
+{
+    "api_version": 2,
+    "name": "dr-widgets-blocks/recipe-posts-carousel",
+    "title": "Recipe Posts Carousel",
+    "category": "dr-widgets-blocks",
+    "attributes": {
+        "block_id": {
+            "type": "string"
+        },
+        "layout": {
+            "type": "string",
+            "default": "layout-1"
+        },
+        "postsPerPage": {
+            "type": "number",
+            "default": 8
+        },
+        "offset": {
+            "type": "number",
+            "default": 0
+        },
+        "filterBy": {
+            "type": "string",
+            "default": "latest"
+        },
+        "taxonomy": {
+            "type": "string",
+            "default": "recipe-course"
+        },
+        "terms": {
+            "type": "array",
+            "default": []
+        },
+        "orderby": {
+            "type": "string",
+            "default": "date"
+        },
+        "order": {
+            "type": "string",
+            "default": "DESC"
+        },
+        "exclude": {
+            "type": "array",
+            "default": []
+        },
+        "showFeatureImage": {
+            "type": "boolean",
+            "default": true
+        },
+        "showTitle": {
+            "type": "boolean",
+            "default": true
+        },
+        "headingTag": {
+            "type": "string",
+            "default": "h3"
+        },
+        "showTotalTime": {
+            "type": "boolean",
+            "default": true
+        },
+        "showDifficulty": {
+            "type": "boolean",
+            "default": true
+        },
+        "showRecipeKeys": {
+            "type": "boolean",
+            "default": true
+        },
+        "backgroundColor": {
+            "type": "string",
+            "default": ""
+        },
+        "padding": {
+            "type": "object",
+            "default": {
+                "unit": "px",
+                "spacing": {
+                    "desktop": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "mobile": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "tablet": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    }
+                }
+            }
+        },
+        "margin": {
+            "type": "object",
+            "default": {
+                "spacing": {
+                    "top": "",
+                    "left": "",
+                    "right": "",
+                    "bottom": ""
+                },
+                "unit": "px"
+            }
+        },
+        "border": {
+            "type": "object",
+            "default": {
+                "width": "0",
+                "style": "none",
+                "color": {
+                    "color": ""
+                }
+            }
+        },
+        "borderRadius": {
+            "type": "object",
+            "default": {
+                "unit": "px",
+                "spacing": {
+                    "desktop": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "mobile": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "tablet": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    }
+                }
+            }
+        },
+        "boxShadow": {
+            "type": "object",
+            "default": {
+                "enable": false,
+                "inset": false,
+                "horizontalOffset": 0,
+                "verticalOffset": 5,
+                "blur": 20,
+                "spread": 0,
+                "color": {
+                    "color": "rgba(210,213,218,0.2)"
+                }
+            }
+        },
+        "alignment": {
+            "type": "string",
+            "default": ""
+        },
+        "imageSize": {
+            "type": "string",
+            "default": "full"
+        },
+        "imageWidth": {
+            "type": "object",
+            "default": {
+                "desktop": {
+                    "number": "",
+                    "unit": "px"
+                },
+                "tablet": {
+                    "number": "",
+                    "unit": "px"
+                },
+                "mobile": {
+                    "number": "",
+                    "unit": "px"
+                }
+            }
+        },
+        "imageHeight": {
+            "type": "object",
+            "default": {
+                "desktop": {
+                    "number": "",
+                    "unit": "px"
+                },
+                "tablet": {
+                    "number": "",
+                    "unit": "px"
+                },
+                "mobile": {
+                    "number": "",
+                    "unit": "px"
+                }
+            }
+        },
+        "imageBorderRadius": {
+            "type": "object",
+            "default": {
+                "unit": "px",
+                "spacing": {
+                    "desktop": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "mobile": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "tablet": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    }
+                }
+            }
+        },
+        "imageScale": {
+            "type": "string",
+            "default": "original"
+        },
+        "titleColor": {
+            "type": "string",
+            "default": "#374757"
+        },
+        "titleHoverColor": {
+            "type": "string",
+            "default": "var(--primary-color)"
+        },
+        "titleMargin": {
+            "type": "object",
+            "default": {
+                "spacing": {
+                    "top":"",
+                    "left":"",
+                    "right":"",
+                    "bottom": ""
+                },
+                "unit": "px"
+            }
+        },
+        "titleTypography": {
+            "type": "object",
+            "default": {
+                "fontFamily": "Default",
+                "fontSize": {
+                    "desktop": {
+                        "number": "",
+                        "unit": "px"
+                    },
+                    "tablet": {
+                        "number": "",
+                        "unit": "px"
+                    },
+                    "mobile": {
+                        "number": "",
+                        "unit": "px"
+                    }
+                },
+                "lineHeight": {
+                    "desktop": {
+                        "number": "",
+                        "unit": "em"
+                    },
+                    "tablet": {
+                        "number": "",
+                        "unit": "em"
+                    },
+                    "mobile": {
+                        "number": "",
+                        "unit": "em"
+                    }
+                },
+                "letterSpacing": {
+                    "desktop": {
+                        "number": 0,
+                        "unit": "em"
+                    },
+                    "tablet": {
+                        "number": 0,
+                        "unit": "em"
+                    },
+                    "mobile": {
+                        "number": 0,
+                        "unit": "em"
+                    }
+                },
+                "variation": "n7",
+                "textTransform": "normal",
+                "textDecoration": "none"
+            }
+        },
+        "recipeKeysIconSize": {
+            "type": "object",
+            "default": {
+                "number": 29,
+                "unit": "px"
+            }
+        },
+        "recipeKeysIconSpace": {
+            "type": "object",
+            "default": {
+                "number": 8,
+                "unit": "px"
+            }
+        },
+        "recipeKeysIconAlignment": {
+            "type": "string",
+            "default": ""
+        },
+        "metaIconSize": {
+            "type": "object",
+            "default": {
+                "number": 13,
+                "unit": "px"
+            }
+        },
+        "metaIconColor": {
+            "type": "string",
+            "default": ""
+        },
+        "metaTypography": {
+            "type": "object",
+            "default": {
+                "fontFamily": "Default",
+                "variation": "n6",
+                "fontSize": {
+                    "desktop": {
+                        "number": "",
+                        "unit": "px"
+                    },
+                    "tablet": {
+                        "number": "",
+                        "unit": "px"
+                    },
+                    "mobile": {
+                        "number": "",
+                        "unit": "px"
+                    }
+                },
+                "lineHeight": {
+                    "desktop": {
+                        "number": "",
+                        "unit": "em"
+                    },
+                    "tablet": {
+                        "number": "",
+                        "unit": "em"
+                    },
+                    "mobile": {
+                        "number": "",
+                        "unit": "em"
+                    }
+                },
+                "letterSpacing": {
+                    "desktop": {
+                        "number": 0,
+                        "unit": "em"
+                    },
+                    "tablet": {
+                        "number": 0,
+                        "unit": "em"
+                    },
+                    "mobile": {
+                        "number": 0,
+                        "unit": "em"
+                    }
+                },
+                "textTransform": "normal",
+                "textDecoration": "none"
+            }
+        },
+        "metaTextColor": {
+            "type": "string",
+            "default": ""
+        },
+        "metaIconSpacing": {
+            "type": "object",
+            "default": {
+                "number": 25,
+                "unit": "px"
+            }
+        },
+        "metaAlignment": {
+            "type": "string",
+            "default": ""
+        },
+        "recipesPerSlide": {
+            "type": "object",
+            "default": {
+                "desktop": 4,
+                "tablet": 3,
+                "mobile": 1
+            }
+        },
+        "slideItemGap": {
+            "type": "number",
+            "default": 0
+        },
+        "showSliderArows": {
+            "type": "boolean",
+            "default": true
+        },
+        "navSize": {
+            "type": "object",
+            "default": {
+                "number": "",
+                "unit": "px"
+            }
+        },
+        "sliderArrowsColor": {
+            "type": "string",
+            "default": ""
+        },
+        "sliderArrowsHoverColor": {
+            "type": "string",
+            "default": ""
+        },
+        "sliderArrowsBackgroundColor": {
+            "type": "string",
+            "default": ""
+        },
+        "sliderArrowsBackgroundHoverColor": {
+            "type": "string",
+            "default": ""
+        },
+        "sliderArrowsBorder": {
+            "type": "object",
+            "default": {
+                "width": "0",
+                "style": "none",
+                "color": {
+                    "color": ""
+                }
+            }
+        },
+        "sliderArrowsBorderRadius": {
+            "type": "object",
+            "default": {
+                "unit": "px",
+                "spacing": {
+                    "desktop": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "mobile": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    },
+                    "tablet": {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom": ""
+                    }
+                }
+            }
+        }
+    },
+    "viewScript": "drWidgetsBlocks-common",
+    "style": [
+        "dr-widgetsBlocks-layouts",
+        "dr-widgetsBlocks-recipe-posts-carousel",
+        "swiper-bundle"
+    ]
+}
