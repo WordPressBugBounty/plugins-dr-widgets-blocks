@@ -37,6 +37,18 @@ class Widget_Recipe_Grid_Two extends Widget {
 		);
 	}
 
+	public function get_script_depends()	{
+		wp_register_script( 'drWidgets-recipe-grid-two', plugin_dir_url( DR_WIDGETS_BLOCKS_PLUGIN_FILE ) . 'src/widgets/recipe-grid-two/recipe-grid-two.js', array( 'jquery' ), DR_WIDGETS_BLOCKS_VERSION, true );
+
+		// Generate nonce
+		wp_localize_script('drWidgets-recipe-grid-two', 'recipeGridTwo', array(
+			'nonce' => wp_create_nonce('recipe_grid_two_nonce')
+		));
+
+		return array( 'drWidgets-recipe-grid-two');
+
+	}
+
 	protected function register_controls() {
 		/**
 		 * Recipe Posts Layouts Section
@@ -59,6 +71,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 					'layout-3' => esc_html__( 'Layout 3', 'dr-widgets-blocks' ),
 				),
 				'default' => 'layout-1',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_responsive_control(
@@ -74,6 +87,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'desktop_default' => 3,
 				'tablet_default'  => 2,
 				'mobile_default'  => 1,
+				'frontend_available' => true,
 			)
 		);
 		$this->add_responsive_control(
@@ -144,6 +158,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'max'         => 100,
 				'step'        => 1,
 				'default'     => 3,
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -156,6 +171,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'max'         => 100,
 				'step'        => 1,
 				'default'     => 0,
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -170,6 +186,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 					'taxonomy' => esc_html__( 'Taxonomy', 'dr-widgets-blocks' ),
 				),
 				'default' => 'latest',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -182,6 +199,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'condition' => array(
 					'filterBy' => 'taxonomy',
 				),
+				'frontend_available' => true,
 			)
 		);
 		$taxonomies = delicious_recipes_get_taxonomies();
@@ -196,6 +214,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 					'all_taxonomy!' => 'yes',
 				),
 				'default' => 'recipe-course',
+				'frontend_available' => true,
 			)
 		);
 		$list_all_tax= [];
@@ -212,6 +231,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 						'all_taxonomy!' => 'yes',
 						'taxonomy'      => $tax,
 					),
+					'frontend_available' => true,
 				)
 			);
 			// Update the array to store all taxonomy
@@ -234,6 +254,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 					'filterBy' => 'taxonomy',
 					'all_taxonomy' => 'yes',
 				),
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -254,6 +275,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'condition' => array(
 					'filterBy!' => 'popular',
 				),
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -266,6 +288,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 					'desc' => esc_html__( 'Descending', 'dr-widgets-blocks' ),
 				),
 				'default' => 'desc',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -275,6 +298,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label'    => esc_html__( 'Exclude Recipes', 'dr-widgets-blocks' ),
 				'multiple' => true,
 				'options'  => dr_widgets_blocks_get_all_recipe_options(),
+				'frontend_available' => true,
 			)
 		);
 		$this->end_controls_section();
@@ -298,6 +322,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -309,6 +334,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -331,6 +357,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'condition' => array(
 					'showTitle' => 'yes',
 				),
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -342,6 +369,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -353,6 +381,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -364,6 +393,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -378,6 +408,7 @@ class Widget_Recipe_Grid_Two extends Widget {
                 'condition' => array(
 					'layout' => 'layout-1',
 				),
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -394,6 +425,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 					'showExcerpt' => 'yes',
                     'layout' => 'layout-1',
 				),
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -405,6 +437,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
 				'return_value' => 'yes',
 				'default'      => '',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -416,6 +449,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
 				'return_value' => 'yes',
 				'default'      => '',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -427,6 +461,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
 				'return_value' => 'yes',
 				'default'      => '',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -438,6 +473,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
 				'return_value' => 'yes',
 				'default'      => '',
+				'frontend_available' => true,
 			)
 		);
 		$this->add_control(
@@ -449,6 +485,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
 				'return_value' => 'yes',
 				'default'      => 'yes',
+				'frontend_available' => true,
 			)
 		);
 
@@ -461,6 +498,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
 				'return_value' => 'yes',
 				'default'      => '',
+				'frontend_available' => true,
 			)
 		);
 		$this->end_controls_section();
@@ -1243,7 +1281,506 @@ class Widget_Recipe_Grid_Two extends Widget {
 
 		$this->end_controls_section();
 
-		
+		/**
+		 * Recipe Grid Pagination Section
+		 */
+		$this->start_controls_section(
+			'pagination_section',
+			array(
+				'label' => esc_html__( 'Pagination', 'dr-widgets-blocks' ),
+				'tab'   => \Elementor\Controls_Manager::TAB_CONTENT,
+			)
+		);
+		$this->add_control(
+			'showPagination',
+			array(
+				'type'         => \Elementor\Controls_Manager::SWITCHER,
+				'label'        => esc_html__( 'Show Pagination', 'dr-widgets-blocks' ),
+				'label_on'     => esc_html__( 'Show', 'dr-widgets-blocks' ),
+				'label_off'    => esc_html__( 'Hide', 'dr-widgets-blocks' ),
+				'return_value' => 'yes',
+				'default'      => 'no',
+				'frontend_available' => true,
+			)
+		);
+		$this->add_control(
+			'paginationType',
+			array(
+				'type'      => \Elementor\Controls_Manager::SELECT,
+				'label'     => esc_html__( 'Pagination Type', 'dr-widgets-blocks' ),
+				'options'   => array(
+					'number'   => esc_html__( 'Numbers', 'dr-widgets-blocks' ),
+					'loadMore' => esc_html__( 'Load on click', 'dr-widgets-blocks' ),
+				),
+				'default'   => 'number',
+				'condition' => array(
+					'showPagination' => 'yes',
+				),
+				'frontend_available' => true,
+			)
+		);
+		$this->add_control(
+			'prevText',
+			array(
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'label'       => esc_html__( 'Previous Label', 'dr-widgets-blocks' ),
+				'placeholder' => esc_html__( 'Previous', 'dr-widgets-blocks' ),
+				'condition'   => array(
+					'paginationType' => 'number',
+					'showPagination' => 'yes',
+				),
+				'default' => __( 'Previous', 'dr-widgets-blocks' ),
+				'frontend_available' => true,
+			)
+		);
+		$this->add_control(
+			'nextText',
+			array(
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'label'       => esc_html__( 'Next Label', 'dr-widgets-blocks' ),
+				'placeholder' => esc_html__( 'Next', 'dr-widgets-blocks' ),
+				'condition'   => array(
+					'paginationType' => 'number',
+					'showPagination' => 'yes',
+				),
+				'frontend_available' => true,
+				'default' => __( 'Next', 'dr-widgets-blocks' ),
+			)
+		);
+		$this->add_control(
+			'loadText',
+			array(
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'label'       => esc_html__( 'Button Label', 'dr-widgets-blocks' ),
+				'default'     => __( 'Load More', 'dr-widgets-blocks' ),
+				'condition'   => array(
+					'paginationType' => 'loadMore',
+					'showPagination' => 'yes',
+				),
+				'frontend_available' => true,
+			)
+		);
+		$this->add_responsive_control(
+			'paginationAlignment',
+			array(
+				'label'     => esc_html__( 'Alignment', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::CHOOSE,
+				'options'   => array(
+					'start'   => array(
+						'title' => esc_html__( 'Left', 'dr-widgets-blocks' ),
+						'icon'  => 'eicon-align-start-h',
+					),
+					'center' => array(
+						'title' => esc_html__( 'Center', 'dr-widgets-blocks' ),
+						'icon'  => 'eicon-align-center-h',
+					),
+					'end'  => array(
+						'title' => esc_html__( 'Right', 'dr-widgets-blocks' ),
+						'icon'  => 'eicon-align-end-h',
+					),
+				),
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-alignment: {{VALUE}};',
+				),
+				'default' => 'center',
+				'condition' => array(
+					'showPagination' => 'yes',
+				),
+			)
+		);
+		$this->end_controls_section();
+
+		// Add pagination style section
+		$this->start_controls_section(
+			'pagination_style_section',
+			array(
+				'label'     => esc_html__( 'Pagination', 'dr-widgets-blocks' ),
+				'tab'       => \Elementor\Controls_Manager::TAB_STYLE,
+				'condition' => array(
+					'showPagination' => 'yes',
+					'paginationType' => 'number',
+				),
+			)
+		);
+		$this->add_responsive_control(
+			'paginationPadding',
+			array(
+				'label'      => esc_html__( 'Padding', 'dr-widgets-blocks' ),
+				'type'       => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%', 'em' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .dr-widget-pagination ' => '--pagination-padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
+		$this->add_responsive_control(
+			'paginationMargin',
+			array(
+				'label'      => esc_html__( 'Margin', 'dr-widgets-blocks' ),
+				'type'       => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%', 'em' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .dr-widget-pagination' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
+		$this->add_group_control(
+			\Elementor\Group_Control_Typography::get_type(),
+			array(
+				'name'     => 'paginationTypography',
+				'label'    => esc_html__( 'Typography', 'dr-widgets-blocks' ),
+				'selector' => '{{WRAPPER}} .dr-widget-pagination',
+			)
+		);
+		$this->add_group_control(
+			\Elementor\Group_Control_Border::get_type(),
+			array(
+				'name'     => 'paginationBorder',
+				'label'    => esc_html__( 'Border', 'dr-widgets-blocks' ),
+				'selector' => '{{WRAPPER}} .dr-widget-pagination',
+			)
+		);
+		$this->add_control(
+			'paginationBorderRadius',
+			array(
+				'label'      => esc_html__( 'Border Radius', 'dr-widgets-blocks' ),
+				'type'       => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .dr-widget-pagination ' => '--pagination-border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
+		$this->add_control(
+			'paginationStylingTitle',
+			array(
+				'label'     => esc_html__('Pagination Styling', 'dr-widgets-blocks'),
+				'type'      => \Elementor\Controls_Manager::HEADING,
+				'separator' => 'before',
+			)
+		);
+		$this->add_responsive_control(
+			'paginationNumberPadding',
+			array(
+				'label'      => esc_html__( 'Padding', 'dr-widgets-blocks' ),
+				'type'       => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%', 'em' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-number-padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
+		$this->add_responsive_control(
+			'paginationSpacing',
+			array(
+				'label'      => esc_html__( 'Spacing Between Items', 'dr-widgets-blocks' ),
+				'type'       => \Elementor\Controls_Manager::SLIDER,
+				'size_units' => array( 'px', '%' ),
+				'range'      => array(
+					'px' => array(
+						'min'  => 0,
+						'max'  => 100,
+						'step' => 1,
+					),
+					'%'  => array(
+						'min'  => 0,
+						'max'  => 100,
+						'step' => 1,
+					),
+				),
+				'selectors'  => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-spacing: {{SIZE}}{{UNIT}};',
+				),
+			)
+		);
+
+		$this->start_controls_tabs( 'pagina_tabs' );
+		// Normal Tab
+		$this->start_controls_tab(
+			'pagination_normal',
+			array(
+				'label' => esc_html__( 'Normal', 'dr-widgets-blocks' ),
+			)
+		);
+		$this->add_control(
+			'paginationColor',
+			array(
+				'label'     => esc_html__( 'Color', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-color: {{VALUE}};',
+				),
+			)
+		);
+		$this->add_control(
+			'paginationBackground',
+			array(
+				'label'     => esc_html__( 'Background', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-bg: {{VALUE}};',
+				),
+			)
+		);
+		$this->end_controls_tab();
+
+		// Active Tab
+		$this->start_controls_tab(
+			'pagination_active',
+			array(
+				'label' => esc_html__( 'Active', 'dr-widgets-blocks' ),
+			)
+		);
+		$this->add_control(
+			'paginationActiveColor',
+			array(
+				'label'     => esc_html__( 'Color', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-active-color: {{VALUE}};',
+				),
+			)
+		);
+		$this->add_control(
+			'paginationAciveBackgroundColor',
+			array(
+				'label'     => esc_html__( 'Background', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-active-bg: {{VALUE}};',
+				),
+			)
+		);
+		$this->add_control(
+			'paginationBorderColor',
+			array(
+				'label'     => esc_html__( 'Border Color', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-active-border: {{VALUE}};',
+				),
+			)
+		);
+		$this->end_controls_tab();
+
+		// Hover Tab
+		$this->start_controls_tab(
+			'pagination_hover',
+			array(
+				'label' => esc_html__( 'Hover', 'dr-widgets-blocks' ),
+			)
+		);
+		$this->add_control(
+			'paginationHoverColor',
+			array(
+				'label'     => esc_html__( 'Color', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-hover-color: {{VALUE}};',
+				),
+			)
+		);
+		$this->add_control(
+			'paginationHoverBackgroundColor',
+			array(
+				'label'     => esc_html__( 'Background', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-hover-bg: {{VALUE}};',
+				),
+			)
+		);
+		$this->add_control(
+			'paginationHoverBorderColor',
+			array(
+				'label'     => esc_html__( 'Border Color', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-hover-border: {{VALUE}};',
+				),
+			)
+		);
+		$this->end_controls_tab();
+		$this->end_controls_tabs();
+
+		$this->add_control(
+			'hr',
+			[
+				'type' => \Elementor\Controls_Manager::DIVIDER,
+			]
+		);
+		$this->add_control(
+			'paginationPNColor',
+			array(
+				'label'     => esc_html__( 'Prev/Next Hover Color', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-p-n-color: {{VALUE}};',
+				),
+			)
+		);
+		$this->add_group_control(
+			\Elementor\Group_Control_Border::get_type(),
+			array(
+				'name'     => 'paginationNumberBorder',
+				'label'    => esc_html__( 'Border', 'dr-widgets-blocks' ),
+				'selector' => '{{WRAPPER}} .dr-widget-pagination .page-numbers:not(.prev, .next, .dots)',
+			)
+		);
+		$this->add_control(
+			'paginationBorderNumberRadius',
+			array(
+				'label'      => esc_html__( 'Border Radius', 'dr-widgets-blocks' ),
+				'type'       => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--pagination-number-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
+		$this->end_controls_section();
+
+		/**
+		 * Load More Button Style Section
+		 * */
+
+		$this->start_controls_section(
+			'pagination_button_style_section',
+			array(
+				'label'     => esc_html__( 'Load More Button', 'dr-widgets-blocks' ),
+				'tab'       => \Elementor\Controls_Manager::TAB_STYLE,
+				'condition' => array(
+					'showPagination' => 'yes',
+					'paginationType' => 'loadMore',
+				),
+			)
+		);
+		$this->add_responsive_control(
+			'buttonMargin',
+			array(
+				'label'      => esc_html__( 'Margin', 'dr-widgets-blocks' ),
+				'type'       => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--button-margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
+		$this->add_responsive_control(
+			'buttonPadding',
+			array(
+				'label'      => esc_html__( 'Padding', 'dr-widgets-blocks' ),
+				'type'       => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--button-padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
+		$this->add_group_control(
+			\Elementor\Group_Control_Typography::get_type(),
+			array(
+				'name'     => 'buttonTypography',
+				'label'    => esc_html__( 'Typography', 'dr-widgets-blocks' ),
+				'selector' => '{{WRAPPER}} .dr-widget-pagination .dr-widget-pagination__btn',
+			)
+		);
+		$this->start_controls_tabs( 'button_tabs' );
+		$this->start_controls_tab(
+			'button_tabs_normal',
+			array(
+				'label' => esc_html__( 'Normal', 'dr-widgets-blocks' ),
+			)
+		);
+		$this->add_control(
+			'buttonBackgroundColor',
+			array(
+				'label'     => esc_html__( 'Background Color', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--button-bg: {{VALUE}};',
+				),
+			)
+		);
+		$this->add_control(
+			'buttonColor',
+			array(
+				'label'     => esc_html__( 'Color', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--button-color: {{VALUE}};',
+				),
+			)
+		);
+		$this->add_group_control(
+			\Elementor\Group_Control_Border::get_type(),
+			array(
+				'name'     => 'buttonBorder',
+				'label'    => esc_html__( 'Border', 'dr-widgets-blocks' ),
+				'selector' => '{{WRAPPER}} .dr-widget-pagination .dr-widget-pagination__btn',
+			)
+		);
+		$this->add_control(
+			'buttonBorderRadius',
+			array(
+				'label'      => esc_html__( 'Border Radius', 'dr-widgets-blocks' ),
+				'type'       => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--button-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
+		$this->end_controls_tab();
+
+		$this->start_controls_tab(
+			'button_tabs_hover',
+			array(
+				'label' => esc_html__( 'Hover', 'dr-widgets-blocks' ),
+			)
+		);
+		$this->add_control(
+			'buttonBackgroundColorHover',
+			array(
+				'label'     => esc_html__( 'Background Color', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--button-bg-hover: {{VALUE}};',
+				),
+			)
+		);
+		$this->add_control(
+			'buttonColorHover',
+			array(
+				'label'     => esc_html__( 'Color', 'dr-widgets-blocks' ),
+				'type'      => \Elementor\Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--button-color-hover: {{VALUE}};',
+				),
+			)
+		);
+		$this->add_group_control(
+			\Elementor\Group_Control_Border::get_type(),
+			array(
+				'name'     => 'buttonBorderHover',
+				'label'    => esc_html__( 'Border', 'dr-widgets-blocks' ),
+				'selector' => '{{WRAPPER}} .dr-widget-pagination .dr-widget-pagination__btn:hover',
+			)
+		);
+		$this->add_control(
+			'buttonBorderRadiusHover',
+			array(
+				'label'      => esc_html__( 'Border Radius', 'dr-widgets-blocks' ),
+				'type'       => \Elementor\Controls_Manager::DIMENSIONS,
+				'size_units' => array( 'px', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .dr-widget-pagination' => '--button-radius-hover: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			)
+		);
+		$this->end_controls_tab();
+		$this->end_controls_tabs();
+		$this->end_controls_section();
 	}
 
 	protected function render() {
@@ -1253,6 +1790,8 @@ class Widget_Recipe_Grid_Two extends Widget {
 		$order_by   = isset( $settings['orderby'] ) ? $settings['orderby'] : 'date';
 		$order      = isset( $settings['order'] ) ? $settings['order'] : 'DESC';
 		$offset     = isset( $settings['offset'] ) ? $settings['offset'] : 0;
+
+		$paged = max( 1, get_query_var( 'paged', 1 ) );
 
 		if(isset( $settings['filterBy'] )){
 			$orderby = $settings['filterBy'] === 'rand' ? 'rand' : ($settings['filterBy'] === 'popular' ? 'meta_value_num' : $order_by);
@@ -1264,6 +1803,7 @@ class Widget_Recipe_Grid_Two extends Widget {
 			'posts_per_page'   => $per_page,
 			'post__not_in'     => $recipe_ids,
 			'offset'           => $offset,
+			'paged'            => $paged,
 			'orderby'          => $orderby,
 			'order'            => $order,
 			'post_type'        => DELICIOUS_RECIPE_POST_TYPE,
@@ -1279,50 +1819,6 @@ class Widget_Recipe_Grid_Two extends Widget {
 		$terms              = $taxonomy ? ( isset( $settings[ "{$taxonomy}_term_id" ] ) ? $settings[ "{$taxonomy}_term_id" ] : '' ) : '';
 		$all_taxonomy       = isset( $settings['all_taxonomy'] ) && 'yes' === $settings['all_taxonomy'] ? true : false;
 		$all_term_id        = isset( $settings['all_term_id'] ) ? $settings['all_term_id'] : [];
-
-		if(!$all_taxonomy){
-			if ( $taxonomy && $terms ) {
-				$args['tax_query'] = array(
-					array(
-						'taxonomy' => $taxonomy,
-						'terms'    => $terms,
-						'field'    => 'term_id',
-					),
-				);
-			} elseif ( $taxonomy ) {
-				$args['taxonomy'] = $taxonomy;
-			}
-		} else {
-			// Build tax_query args for filtering recipes by multiple taxonomy terms
-			// Loops through selected term IDs, parses taxonomy and term from each,
-			// and creates an array of tax queries with OR relation between them
-			if ( !empty($all_term_id) && is_array($all_term_id) ) {
-				$tax_array = array();
-				foreach($all_term_id as $item) {
-					$tax_array[] = array(
-						'taxonomy' => dr_widgets_blocks_parse_term_id($item, true),
-						'terms'    => dr_widgets_blocks_parse_term_id($item, false),
-						'field'    => 'term_id',
-					);
-				}
-
-				// Merge the tax_query args with OR relation between them
-				$args['tax_query'] = array_merge(array(
-					'relation' => 'OR',
-				), $tax_array);
-			}
-		}
-
-		$recipes_query = new \WP_Query( $args );
-
-		if ( 0 === $recipes_query->post_count ) {
-			?>
-				<p>
-					<?php esc_html_e( 'Please check the widget settings and make sure you have selected a valid query.', 'dr-widgets-blocks' ); ?>
-				</p>
-			<?php
-			return;
-		}
 
 		$per_row        = isset( $settings['recipesPerRow'] ) ? absint( $settings['recipesPerRow'] ) : 3;
 		$per_row_tablet = isset( $settings['recipesPerRow_tablet'] ) ? absint( $settings['recipesPerRow_tablet'] ) : 2;
@@ -1349,45 +1845,66 @@ class Widget_Recipe_Grid_Two extends Widget {
 		$image_alignment     = isset( $settings['imageAlignment'] ) ? $settings['imageAlignment'] : 'left';
 		$separator           = isset( $settings['separator'] ) ? $settings['separator'] : 'dot';
 		$show_wishlist       = isset( $settings['showBookmark'] ) && 'yes' === $settings['showBookmark'] ? true : false;
+
+		// Add pagination settings
+		$show_pagination    = isset( $settings['showPagination'] ) && 'yes' === $settings['showPagination'] ? true : false;
+		$pagination_type    = isset( $settings['paginationType'] ) ? $settings['paginationType'] : 'number';
+		$prev_text         = isset( $settings['prevText'] ) ? $settings['prevText'] : __( 'Previous', 'dr-widgets-blocks' );
+		$next_text         = isset( $settings['nextText'] ) ? $settings['nextText'] : __( 'Next', 'dr-widgets-blocks' );
+		$load_text         = isset( $settings['loadText'] ) ? $settings['loadText'] : __( 'Load More', 'dr-widgets-blocks' );
+
+		$widget_data = array(
+			'layout'  			  => $layout,
+			'show_feature_image'  => $show_feature_image,
+			'image_size'          => $image_size,
+			'image_size_l2'       => $image_size_l2,
+			'show_title'          => $show_title,
+			'title_tag'           => $title_tag,
+			'show_total_time'     => $show_total_time,
+			'show_difficulty'     => $show_difficulty,
+			'show_recipe_keys'    => $show_recipe_keys,
+			'show_excerpt'        => $show_excerpt,
+			'show_author'         => $show_author,
+			'show_publish_date'   => $show_publish_date,
+			'show_rating'         => $show_rating,
+			'show_comment'        => $show_comment,
+			'show_category'       => $show_category,
+			'excerpt_length'      => $excerpt_length,
+			'image_alignment'     => $image_alignment,
+			'separator'           => $separator,
+			'show_wishlist'       => $show_wishlist,
+			'pagination_type'     => $pagination_type,
+			'current_page'        => $paged,
+			'show_pagination'     => $show_pagination,
+			'per_row'			  => $per_row,
+			'per_row_tablet'	  => $per_row_tablet,
+			'per_row_mobile'	  => $per_row_mobile,
+			'taxonomy'            => $taxonomy,
+			'terms'               => $terms,
+			'all_taxonomy'        => $all_taxonomy,
+			'all_term_id'         => $all_term_id,
+			'args' 				  => $args,
+			'paged' 			  => $paged,
+			'prev_text' 		  => $prev_text,
+			'next_text' 		  => $next_text,
+			'load_text' 		  => $load_text
+		);
+		extract( $widget_data );
 		?>
-		<div class="dr-widget">
-			<div class="dr-widgetBlock_row recipe-grid-post-two <?php echo esc_attr( $layout ); ?> columns-<?php echo esc_attr( $per_row_tablet ); ?>-tb columns-<?php echo esc_attr( $per_row_mobile  ); ?>-mb columns-<?php echo esc_attr( $per_row ); ?>">
-				<?php
-				if ( $recipes_query->have_posts() ) {
-					while ( $recipes_query->have_posts() ) {
-						$recipes_query->the_post();
-						$recipe       = get_post( get_the_ID() );
-						$recipe_metas = delicious_recipes_get_recipe( $recipe );
-						$data         = array(
-							'settings'     => array(
-								'layout'  => $layout,
-								'show_feature_image'  => $show_feature_image,
-								'image_size'          => $image_size,
-								'image_size_l2'       => $image_size_l2,
-								'show_title'          => $show_title,
-								'title_tag'           => $title_tag,
-								'show_total_time'     => $show_total_time,
-								'show_difficulty'     => $show_difficulty,
-								'show_recipe_keys'    => $show_recipe_keys,
-								'show_excerpt'        => $show_excerpt,
-								'show_author'         => $show_author,
-								'show_publish_date'   => $show_publish_date,
-								'show_rating'         => $show_rating,
-								'show_comment'        => $show_comment,
-								'show_category'       => $show_category,
-								'excerpt_length'      => $excerpt_length,
-								'image_alignment'     => $image_alignment,
-								'separator'           => $separator,
-								'show_wishlist'       => $show_wishlist,
-							),
-							'recipe_metas' => $recipe_metas,
-						);
-						dr_widgets_blocks_get_template( 'recipe-grid-two.php', $data );
-					}
-					wp_reset_postdata();
-				}
-				?>
-			</div>
+		<div class="dr-widget-wrapper" id="<?php echo esc_attr( $this->get_id() ); ?>">
+			<?php include __DIR__ . '/render.php'; ?>
+			<?php if( 'loadMore' === $pagination_type ) { ?>
+				<div class="dr-widget-pagination">
+					<button class="dr-widget-pagination__btn" >
+						<?php echo esc_html( $load_text ); ?>
+						<svg class="dr-widget-pagination__spinner" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
+					</button>
+				</div>
+			<?php  
+				$query = new \WP_Query( $args );
+				$max_pages = $query->max_num_pages;
+				echo '<div class="dr-max-pages" data-max-pages="' . esc_attr( $max_pages ) . '"></div>'; 
+			} ?>
 		</div>
 		<?php
 	}

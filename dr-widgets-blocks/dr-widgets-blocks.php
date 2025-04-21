@@ -1,18 +1,18 @@
 <?php
 /**
- * Plugin Name:     	Delisho
- * Plugin URI:      	https://wpdelicious.com/delisho/
- * Description:     	An Elementor Widget and Gutenberg Blocks plugin for WP Delicious that include 10+ widgets and 4 Gutenberg blocks to create beautiful and interactive recipe blogs with a quick drag-and-drop.
- * Author:          	WP Delicious
- * Author URI:      	https://wpdelicious.com
- * License:         	GPLv3 or later
- * License URI:     	https://www.gnu.org/licenses/gpl-3.0.html
- * Text Domain:     	dr-widgets-blocks
- * Domain Path:     	/languages
- * Version:         	1.1.1
- * Requires at least: 	5.5
- * Tested up to: 		6.7
- * Requires PHP: 		7.4
+ * Plugin Name:         Delisho
+ * Plugin URI:          https://wpdelicious.com/delisho/
+ * Description:         An Elementor Widget and Gutenberg Blocks plugin for WP Delicious that include 10+ widgets and 4 Gutenberg blocks to create beautiful and interactive recipe blogs with a quick drag-and-drop.
+ * Author:              WP Delicious
+ * Author URI:          https://wpdelicious.com
+ * License:             GPLv3 or later
+ * License URI:         https://www.gnu.org/licenses/gpl-3.0.html
+ * Text Domain:         dr-widgets-blocks
+ * Domain Path:         /languages
+ * Version:             1.1.2
+ * Requires at least:   5.5
+ * Tested up to:        6.8
+ * Requires PHP:        7.4
  *
  * @package         DR_Widgets_Blocks
  */

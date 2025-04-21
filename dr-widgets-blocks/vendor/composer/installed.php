@@ -3,7 +3,7 @@
         'name' => 'kraft-plugins/dr-widgets-blocks',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'a80d2af2c05eb9a285384d5fd007242e8b561df7',
+        'reference' => '1def2bc708026075007be041fddb81da4aeb8e26',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'kraft-plugins/dr-widgets-blocks' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'a80d2af2c05eb9a285384d5fd007242e8b561df7',
+            'reference' => '1def2bc708026075007be041fddb81da4aeb8e26',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

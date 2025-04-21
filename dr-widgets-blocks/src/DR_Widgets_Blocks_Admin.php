@@ -60,7 +60,6 @@ class DR_Widgets_Blocks_Admin {
 				'DRWidgetsBlocksAdmin',
 				array(
 					'ajax_nonce'         => $ajax_nonce,
-					'siteURL'            => esc_url( admin_url() ),
 					'is_pro_activated'   => function_exists( 'delisho_pro_init' ),
 					'plugin_version'     => DR_WIDGETS_BLOCKS_VERSION,
 					'siteURL'            => esc_url( admin_url() ),

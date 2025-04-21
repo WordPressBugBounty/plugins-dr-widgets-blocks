@@ -1,3 +1,7 @@
+1.1.2: 2025-04-21
+- New Feature: Added Pagination in Recipe Grid 1 and Recipe Grid 2.
+- New Feature: Added Pagination in Recipe Post List 1, Recipe Post List 2 and Recipe Post List 3 .
+
 1.1.1: 2025-01-09
 - Fix: Recipe Post List 3 font issue has been fixed.
 - Updates: Updated icons of recipe search and recipe ingredients.

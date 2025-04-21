@@ -4,7 +4,6 @@
  *
  * @package DR_Widgets_Blocks
  */
-
 namespace DR_Widgets_Blocks;
 
 defined( 'ABSPATH' ) || exit;
@@ -14,6 +13,7 @@ defined( 'ABSPATH' ) || exit;
  *
  * @class DR_Widgets_Blocks
  */
+#[\AllowDynamicProperties]
 final class DR_Widgets_Blocks {
 	/**
 	 * DR_Widgets_Blocks version.
@@ -29,6 +29,38 @@ final class DR_Widgets_Blocks {
 	 * @since 1.0.0
 	 */
 	protected static $instance = null;
+
+	/**
+	 * Admin settings instance.
+	 *
+	 * @var DR_Widgets_Blocks_Admin_Settings
+	 * @since 1.0.0
+	 */
+	public $admin_settings;
+
+	/**
+	 * Public instance.
+	 *
+	 * @var DR_Widgets_Blocks_Public
+	 * @since 1.0.0
+	 */
+	public $public;
+
+	/**
+	 * Blocks instance.
+	 *
+	 * @var DR_Widgets_Blocks_Blocks
+	 * @since 1.0.0
+	 */
+	public $blocks;
+
+	/**
+	 * Styles instance.
+	 *
+	 * @var DR_Widgets_Blocks_Styles
+	 * @since 1.0.0
+	 */
+	public $styles;
 
 	/**
 	 * Main DR_Widgets_Blocks Instance.
