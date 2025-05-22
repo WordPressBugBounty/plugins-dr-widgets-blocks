@@ -262,7 +262,7 @@
             patternsData.then(data => {
 
                 let pluginsLists = data[0][templateID]?.filter(requiredPlugin =>
-                    !delishoAdmin.activePlugin.some(activePlugin => activePlugin.name === requiredPlugin.name)
+                    !delishoAdmin.activePlugin.some(activePlugin => activePlugin.slug === requiredPlugin.slug)
                 );
 
                 let isPro = data[1][templateID];
@@ -282,7 +282,7 @@
                                 <p> To use this template, please install and activate the required plugins. Once completed, you can return to this page to proceed. </p> 
                                     <ol class="plugins-list">
                                         ${pluginsLists.map(plugin => {
-                                            if('Delisho Pro' === plugin.name){
+                                            if('delisho-pro' === plugin.slug){
                                                 return `<li>
                                                 ${plugin.name} - <a class="plugins-link" href="https://wpdelicious.com/delisho/?utm_source=delisho&utm_medium=elementor_button&utm_campaign=upgrade_delisho#pricing" target="_blank"> Get it here</a>
                                                 </li>`

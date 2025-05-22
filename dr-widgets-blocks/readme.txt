@@ -5,7 +5,7 @@ Tags:  food, cooking, recipes, elementor, widgets
 Requires at least: 5.5
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -164,6 +164,9 @@ We also have an active Facebook Community of [WP Delicious](https://www.facebook
 4. Activate the plugin in the Plugin dashboard
 
 == Changelog ==
+
+= 1.1.3 - 22nd May 2025 =
+* Fix: Template not importing issue has been fixed.
 
 = 1.1.2 - 21st April 2025 =
 * New Feature: Added Pagination in Recipe Grid 1 and Recipe Grid 2.

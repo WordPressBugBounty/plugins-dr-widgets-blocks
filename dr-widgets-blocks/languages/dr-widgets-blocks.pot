@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Delisho 1.1.2\n"
+"Project-Id-Version: Delisho 1.1.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dr-widgets-blocks\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-21T04:02:24+00:00\n"
+"POT-Creation-Date: 2025-05-22T05:48:02+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 
@@ -52,6 +52,8 @@ msgstr ""
 #: assets/blocks/blocks.js:13
 #: assets/blocks/blocks.js:14
 #: assets/blocks/blocks.js:41
+#: assets/build/blocks.js:1200
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Blocks/index.jsx:9
 #: assets/dashboard/pages/Widgets/index.jsx:9
 msgid "Recipe Posts"
@@ -61,6 +63,8 @@ msgstr ""
 #: assets/blocks/blocks.js:47
 #: assets/blocks/blocks.js:48
 #: assets/blocks/blocks.js:67
+#: assets/build/blocks.js:1200
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Blocks/index.jsx:18
 msgid "Recipe Categories"
 msgstr ""
@@ -70,6 +74,8 @@ msgstr ""
 #: assets/blocks/blocks.js:73
 #: assets/blocks/blocks.js:74
 #: assets/blocks/blocks.js:101
+#: assets/build/blocks.js:1200
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Blocks/index.jsx:36
 #: assets/dashboard/pages/Widgets/index.jsx:45
 msgid "Recipe Categories Tab"
@@ -80,6 +86,8 @@ msgstr ""
 #: assets/blocks/blocks.js:107
 #: assets/blocks/blocks.js:108
 #: assets/blocks/blocks.js:127
+#: assets/build/blocks.js:1200
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Blocks/index.jsx:27
 #: assets/dashboard/pages/Widgets/index.jsx:63
 msgid "Recipe Posts Carousel"
@@ -105,6 +113,7 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-two/recipe-posts-carousel-two.php:1454
 #: src/widgets/recipe-posts-carousel/recipe-posts-carousel.php:1018
 #: assets/blocks/recipe-posts-carousel/edit.js:250
+#: assets/build/blocks.js:1200
 msgid "Please check the widget settings and make sure you have selected a valid taxonomy and term."
 msgstr ""
 
@@ -117,6 +126,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:1548
 #: assets/blocks/recipe-posts/inspector.js:470
 #: assets/blocks/recipe-posts/inspector.js:1401
+#: assets/build/blocks.js:1200
 msgid "Read More"
 msgstr ""
 
@@ -289,6 +299,7 @@ msgstr ""
 #: src/widgets/recipe-categories-two/recipe-categories-two.php:542
 #: src/widgets/recipe-categories/recipe-categories.php:297
 #: assets/blocks/recipe-categories/inspector.js:263
+#: assets/build/blocks.js:1200
 msgid "Default"
 msgstr ""
 
@@ -355,6 +366,7 @@ msgid "Importing content - kindly stay on this page."
 msgstr ""
 
 #: src/widgets/recipe-advanced-heading/recipe-advanced-heading.php:23
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:153
 msgid "Advanced Heading"
 msgstr ""
@@ -405,6 +417,7 @@ msgstr ""
 #: assets/blocks/recipe-posts/inspector.js:237
 #: assets/blocks/recipe-posts/inspector.js:315
 #: assets/blocks/recipe-posts/inspector.js:860
+#: assets/build/blocks.js:1200
 msgid "Title"
 msgstr ""
 
@@ -437,6 +450,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:282
 #: assets/blocks/recipe-posts-carousel/inspector.js:311
 #: assets/blocks/recipe-posts/inspector.js:365
+#: assets/build/blocks.js:1200
 msgid "Heading Tag"
 msgstr ""
 
@@ -464,6 +478,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:198
 #: assets/blocks/recipe-posts-carousel/inspector.js:272
 #: assets/blocks/recipe-posts/inspector.js:326
+#: assets/build/blocks.js:1200
 msgid "H1"
 msgstr ""
 
@@ -491,6 +506,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:202
 #: assets/blocks/recipe-posts-carousel/inspector.js:276
 #: assets/blocks/recipe-posts/inspector.js:330
+#: assets/build/blocks.js:1200
 msgid "H2"
 msgstr ""
 
@@ -518,6 +534,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:206
 #: assets/blocks/recipe-posts-carousel/inspector.js:280
 #: assets/blocks/recipe-posts/inspector.js:334
+#: assets/build/blocks.js:1200
 msgid "H3"
 msgstr ""
 
@@ -545,6 +562,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:210
 #: assets/blocks/recipe-posts-carousel/inspector.js:284
 #: assets/blocks/recipe-posts/inspector.js:338
+#: assets/build/blocks.js:1200
 msgid "H4"
 msgstr ""
 
@@ -572,6 +590,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:214
 #: assets/blocks/recipe-posts-carousel/inspector.js:288
 #: assets/blocks/recipe-posts/inspector.js:342
+#: assets/build/blocks.js:1200
 msgid "H5"
 msgstr ""
 
@@ -599,6 +618,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:218
 #: assets/blocks/recipe-posts-carousel/inspector.js:292
 #: assets/blocks/recipe-posts/inspector.js:346
+#: assets/build/blocks.js:1200
 msgid "H6"
 msgstr ""
 
@@ -626,6 +646,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:222
 #: assets/blocks/recipe-posts-carousel/inspector.js:296
 #: assets/blocks/recipe-posts/inspector.js:350
+#: assets/build/blocks.js:1200
 msgid "Div"
 msgstr ""
 
@@ -653,6 +674,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:226
 #: assets/blocks/recipe-posts-carousel/inspector.js:300
 #: assets/blocks/recipe-posts/inspector.js:354
+#: assets/build/blocks.js:1200
 msgid "span"
 msgstr ""
 
@@ -680,6 +702,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:230
 #: assets/blocks/recipe-posts-carousel/inspector.js:304
 #: assets/blocks/recipe-posts/inspector.js:358
+#: assets/build/blocks.js:1200
 msgid "p"
 msgstr ""
 
@@ -725,6 +748,7 @@ msgstr ""
 #: assets/blocks/recipe-posts-carousel/inspector.js:60
 #: assets/blocks/recipe-posts/inspector.js:43
 #: assets/blocks/recipe-posts/inspector.js:62
+#: assets/build/blocks.js:1200
 msgid "Layout"
 msgstr ""
 
@@ -749,6 +773,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:24
 #: assets/blocks/recipe-posts-carousel/inspector.js:45
 #: assets/blocks/recipe-posts/inspector.js:47
+#: assets/build/blocks.js:1200
 msgid "Layout 1"
 msgstr ""
 
@@ -773,6 +798,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:28
 #: assets/blocks/recipe-posts-carousel/inspector.js:49
 #: assets/blocks/recipe-posts/inspector.js:51
+#: assets/build/blocks.js:1200
 msgid "Layout 2"
 msgstr ""
 
@@ -792,6 +818,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:32
 #: assets/blocks/recipe-posts-carousel/inspector.js:53
 #: assets/blocks/recipe-posts/inspector.js:55
+#: assets/build/blocks.js:1200
 msgid "Layout 3"
 msgstr ""
 
@@ -870,6 +897,7 @@ msgstr ""
 #: assets/blocks/recipe-posts/inspector.js:1147
 #: assets/blocks/recipe-posts/inspector.js:1388
 #: assets/blocks/recipe-posts/inspector.js:1630
+#: assets/build/blocks.js:1200
 msgid "Alignment"
 msgstr ""
 
@@ -1013,6 +1041,7 @@ msgstr ""
 #: assets/blocks/recipe-posts-carousel/inspector.js:876
 #: assets/blocks/recipe-posts/inspector.js:1105
 #: assets/blocks/recipe-posts/inspector.js:1416
+#: assets/build/blocks.js:1200
 msgid "Text Color"
 msgstr ""
 
@@ -1090,6 +1119,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:1114
 #: src/widgets/recipe-posts/recipe-posts.php:1160
 #: assets/blocks/recipe-posts-carousel/inspector.js:1014
+#: assets/build/blocks.js:1200
 msgid "Background"
 msgstr ""
 
@@ -1158,10 +1188,12 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:469
 #: assets/blocks/recipe-posts-carousel/inspector.js:369
 #: assets/blocks/recipe-posts/inspector.js:515
+#: assets/build/blocks.js:1200
 msgid "Padding"
 msgstr ""
 
 #: src/widgets/recipe-categories-tab-two/recipe-categories-tab-two.php:22
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:54
 msgid "Recipe Categories Tab 2"
 msgstr ""
@@ -1175,6 +1207,7 @@ msgstr ""
 #: src/widgets/recipe-categories-tab-two/recipe-categories-tab-two.php:92
 #: src/widgets/recipe-categories-tab/recipe-categories-tab.php:81
 #: assets/blocks/recipe-categories-tab/inspector.js:50
+#: assets/build/blocks.js:1200
 msgid "Grid Gap"
 msgstr ""
 
@@ -1198,6 +1231,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:108
 #: assets/blocks/recipe-posts-carousel/inspector.js:68
 #: assets/blocks/recipe-posts/inspector.js:127
+#: assets/build/blocks.js:1200
 msgid "Query"
 msgstr ""
 
@@ -1230,6 +1264,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:90
 #: assets/blocks/recipe-posts-carousel/inspector.js:86
 #: assets/blocks/recipe-posts/inspector.js:143
+#: assets/build/blocks.js:1200
 msgid "Offset"
 msgstr ""
 
@@ -1285,6 +1320,7 @@ msgstr ""
 #: assets/blocks/recipe-posts-carousel/inspector.js:151
 #: assets/blocks/recipe-posts/inspector.js:163
 #: assets/blocks/recipe-posts/inspector.js:207
+#: assets/build/blocks.js:1200
 msgid "Taxonomy"
 msgstr ""
 
@@ -1324,6 +1360,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:151
 #: assets/blocks/recipe-posts-carousel/inspector.js:161
 #: assets/blocks/recipe-posts/inspector.js:218
+#: assets/build/blocks.js:1200
 msgid "Terms"
 msgstr ""
 
@@ -1365,6 +1402,7 @@ msgstr ""
 #: assets/blocks/recipe-posts-carousel/inspector.js:173
 #: assets/blocks/recipe-posts/inspector.js:229
 #: assets/blocks/recipe-posts/inspector.js:452
+#: assets/build/blocks.js:1200
 msgid "Published Date"
 msgstr ""
 
@@ -1384,6 +1422,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:159
 #: assets/blocks/recipe-posts-carousel/inspector.js:177
 #: assets/blocks/recipe-posts/inspector.js:233
+#: assets/build/blocks.js:1200
 msgid "Modified Date"
 msgstr ""
 
@@ -1403,6 +1442,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:167
 #: assets/blocks/recipe-posts-carousel/inspector.js:185
 #: assets/blocks/recipe-posts/inspector.js:241
+#: assets/build/blocks.js:1200
 msgid "Random"
 msgstr ""
 
@@ -1422,6 +1462,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:171
 #: assets/blocks/recipe-posts-carousel/inspector.js:189
 #: assets/blocks/recipe-posts/inspector.js:245
+#: assets/build/blocks.js:1200
 msgid "Views"
 msgstr ""
 
@@ -1457,6 +1498,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:179
 #: assets/blocks/recipe-posts-carousel/inspector.js:197
 #: assets/blocks/recipe-posts/inspector.js:253
+#: assets/build/blocks.js:1200
 msgid "ID"
 msgstr ""
 
@@ -1476,6 +1518,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:207
 #: assets/blocks/recipe-posts-carousel/inspector.js:225
 #: assets/blocks/recipe-posts/inspector.js:281
+#: assets/build/blocks.js:1200
 msgid "Order"
 msgstr ""
 
@@ -1495,6 +1538,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:200
 #: assets/blocks/recipe-posts-carousel/inspector.js:218
 #: assets/blocks/recipe-posts/inspector.js:274
+#: assets/build/blocks.js:1200
 msgid "Ascending"
 msgstr ""
 
@@ -1514,6 +1558,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:196
 #: assets/blocks/recipe-posts-carousel/inspector.js:214
 #: assets/blocks/recipe-posts/inspector.js:270
+#: assets/build/blocks.js:1200
 msgid "Descending"
 msgstr ""
 
@@ -1538,6 +1583,7 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-two/recipe-posts-carousel-two.php:242
 #: src/widgets/recipe-posts-carousel/recipe-posts-carousel.php:777
 #: assets/blocks/recipe-posts-carousel/inspector.js:920
+#: assets/build/blocks.js:1200
 msgid "Slider"
 msgstr ""
 
@@ -1585,6 +1631,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:171
 #: assets/blocks/recipe-posts-carousel/inspector.js:245
 #: assets/blocks/recipe-posts/inspector.js:301
+#: assets/build/blocks.js:1200
 msgid "Additional"
 msgstr ""
 
@@ -1852,12 +1899,14 @@ msgstr ""
 #: src/widgets/recipe-categories-tab/recipe-categories-tab.php:436
 #: assets/blocks/recipe-categories-tab/inspector.js:232
 #: assets/blocks/recipe-categories-tab/inspector.js:537
+#: assets/build/blocks.js:1200
 msgid "Heading Title"
 msgstr ""
 
 #: src/widgets/recipe-categories-tab-two/recipe-categories-tab-two.php:354
 #: src/widgets/recipe-categories-tab/recipe-categories-tab.php:293
 #: assets/blocks/recipe-categories-tab/inspector.js:342
+#: assets/build/blocks.js:1200
 msgid "Title Tag"
 msgstr ""
 
@@ -1884,6 +1933,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:1053
 #: assets/blocks/recipe-posts/inspector.js:461
 #: assets/blocks/recipe-posts/inspector.js:1159
+#: assets/build/blocks.js:1200
 msgid "Category"
 msgstr ""
 
@@ -1919,6 +1969,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:362
 #: assets/blocks/recipe-posts-carousel/inspector.js:331
 #: assets/blocks/recipe-posts/inspector.js:383
+#: assets/build/blocks.js:1200
 msgid "Difficulty"
 msgstr ""
 
@@ -1942,6 +1993,7 @@ msgstr ""
 #: src/widgets/recipe-grid-two/recipe-grid-two.php:435
 #: src/widgets/recipe-posts/recipe-posts.php:399
 #: assets/blocks/recipe-posts/inspector.js:425
+#: assets/build/blocks.js:1200
 msgid "Author"
 msgstr ""
 
@@ -1956,6 +2008,7 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-two/recipe-posts-carousel-two.php:424
 #: src/widgets/recipe-posts/recipe-posts.php:410
 #: assets/blocks/recipe-posts/inspector.js:434
+#: assets/build/blocks.js:1200
 msgid "Rating"
 msgstr ""
 
@@ -1969,6 +2022,7 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-two/recipe-posts-carousel-two.php:435
 #: src/widgets/recipe-posts/recipe-posts.php:421
 #: assets/blocks/recipe-posts/inspector.js:443
+#: assets/build/blocks.js:1200
 msgid "Comment"
 msgstr ""
 
@@ -1988,6 +2042,7 @@ msgstr ""
 #: src/widgets/recipe-categories-tab-two/recipe-categories-tab-two.php:479
 #: src/widgets/recipe-categories-tab/recipe-categories-tab.php:409
 #: assets/blocks/recipe-categories-tab/inspector.js:479
+#: assets/build/blocks.js:1200
 msgid "Tabs"
 msgstr ""
 
@@ -2038,6 +2093,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:484
 #: assets/blocks/recipe-posts-carousel/inspector.js:407
 #: assets/blocks/recipe-posts/inspector.js:553
+#: assets/build/blocks.js:1200
 msgid "Margin"
 msgstr ""
 
@@ -2112,6 +2168,7 @@ msgstr ""
 #: assets/blocks/recipe-posts-carousel/inspector.js:444
 #: assets/blocks/recipe-posts-carousel/inspector.js:1041
 #: assets/blocks/recipe-posts/inspector.js:590
+#: assets/build/blocks.js:1200
 msgid "Border"
 msgstr ""
 
@@ -2204,6 +2261,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:1354
 #: assets/blocks/recipe-categories/inspector.js:507
 #: assets/blocks/recipe-posts-carousel/inspector.js:987
+#: assets/build/blocks.js:1200
 msgid "Color"
 msgstr ""
 
@@ -2244,6 +2302,7 @@ msgstr ""
 #: assets/blocks/recipe-posts/inspector.js:503
 #: assets/blocks/recipe-posts/inspector.js:1252
 #: assets/blocks/recipe-posts/inspector.js:1443
+#: assets/build/blocks.js:1200
 msgid "Background Color"
 msgstr ""
 
@@ -2316,6 +2375,7 @@ msgstr ""
 #: src/widgets/recipe-categories-tab-two/recipe-categories-tab-two.php:554
 #: src/widgets/recipe-categories-tab/recipe-categories-tab.php:484
 #: assets/blocks/recipe-categories-tab/inspector.js:616
+#: assets/build/blocks.js:1200
 msgid "Tab Items"
 msgstr ""
 
@@ -2364,12 +2424,14 @@ msgstr ""
 #: src/widgets/recipe-post-list-two/recipe-post-list-two.php:1073
 #: src/widgets/recipe-post-list-two/recipe-post-list-two.php:1143
 #: assets/blocks/recipe-categories-tab/inspector.js:749
+#: assets/build/blocks.js:1200
 msgid "Item Spacing"
 msgstr ""
 
 #: src/widgets/recipe-categories-tab-two/recipe-categories-tab-two.php:639
 #: src/widgets/recipe-categories-tab/recipe-categories-tab.php:623
 #: assets/blocks/recipe-categories-tab/inspector.js:785
+#: assets/build/blocks.js:1200
 msgid "Slider Arrows"
 msgstr ""
 
@@ -2407,6 +2469,7 @@ msgstr ""
 #: assets/blocks/recipe-posts-carousel/inspector.js:824
 #: assets/blocks/recipe-posts/inspector.js:987
 #: assets/blocks/recipe-posts/inspector.js:1050
+#: assets/build/blocks.js:1200
 msgid "Icon Size"
 msgstr ""
 
@@ -2499,6 +2562,7 @@ msgstr ""
 #: assets/blocks/recipe-posts/inspector.js:610
 #: assets/blocks/recipe-posts/inspector.js:1300
 #: assets/blocks/recipe-posts/inspector.js:1491
+#: assets/build/blocks.js:1200
 msgid "Border Radius"
 msgstr ""
 
@@ -2551,6 +2615,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:257
 #: assets/blocks/recipe-posts-carousel/inspector.js:351
 #: assets/blocks/recipe-posts/inspector.js:491
+#: assets/build/blocks.js:1200
 msgid "Content"
 msgstr ""
 
@@ -2574,6 +2639,7 @@ msgstr ""
 #: assets/blocks/recipe-posts-carousel/inspector.js:503
 #: assets/blocks/recipe-posts/inspector.js:648
 #: assets/blocks/recipe-posts/inspector.js:1529
+#: assets/build/blocks.js:1200
 msgid "Box Shadow"
 msgstr ""
 
@@ -2599,6 +2665,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:591
 #: assets/blocks/recipe-posts/inspector.js:670
 #: assets/blocks/recipe-posts/inspector.js:674
+#: assets/build/blocks.js:1200
 msgid "Separator"
 msgstr ""
 
@@ -2614,6 +2681,7 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-two/recipe-posts-carousel-two.php:598
 #: src/widgets/recipe-posts/recipe-posts.php:595
 #: assets/blocks/recipe-posts/inspector.js:678
+#: assets/build/blocks.js:1200
 msgid "."
 msgstr ""
 
@@ -2629,6 +2697,7 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-two/recipe-posts-carousel-two.php:602
 #: src/widgets/recipe-posts/recipe-posts.php:599
 #: assets/blocks/recipe-posts/inspector.js:683
+#: assets/build/blocks.js:1200
 msgid "/"
 msgstr ""
 
@@ -2644,6 +2713,7 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-two/recipe-posts-carousel-two.php:606
 #: src/widgets/recipe-posts/recipe-posts.php:603
 #: assets/blocks/recipe-posts/inspector.js:688
+#: assets/build/blocks.js:1200
 msgid "-"
 msgstr ""
 
@@ -2659,6 +2729,7 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-two/recipe-posts-carousel-two.php:610
 #: src/widgets/recipe-posts/recipe-posts.php:607
 #: assets/blocks/recipe-posts/inspector.js:693
+#: assets/build/blocks.js:1200
 msgid "|"
 msgstr ""
 
@@ -2688,6 +2759,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:626
 #: assets/blocks/recipe-posts-carousel/inspector.js:529
 #: assets/blocks/recipe-posts/inspector.js:711
+#: assets/build/blocks.js:1200
 msgid "Image"
 msgstr ""
 
@@ -2712,6 +2784,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:636
 #: assets/blocks/recipe-posts-carousel/inspector.js:534
 #: assets/blocks/recipe-posts/inspector.js:713
+#: assets/build/blocks.js:1200
 msgid "Image Size"
 msgstr ""
 
@@ -2774,6 +2847,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:656
 #: assets/blocks/recipe-posts-carousel/inspector.js:548
 #: assets/blocks/recipe-posts/inspector.js:726
+#: assets/build/blocks.js:1200
 msgid "Width"
 msgstr ""
 
@@ -2796,6 +2870,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:677
 #: assets/blocks/recipe-posts-carousel/inspector.js:574
 #: assets/blocks/recipe-posts/inspector.js:752
+#: assets/build/blocks.js:1200
 msgid "Height"
 msgstr ""
 
@@ -2816,6 +2891,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:725
 #: assets/blocks/recipe-posts-carousel/inspector.js:638
 #: assets/blocks/recipe-posts/inspector.js:829
+#: assets/build/blocks.js:1200
 msgid "Image Scale"
 msgstr ""
 
@@ -2832,6 +2908,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:728
 #: assets/blocks/recipe-posts-carousel/inspector.js:643
 #: assets/blocks/recipe-posts/inspector.js:834
+#: assets/build/blocks.js:1200
 msgid "Original"
 msgstr ""
 
@@ -2854,6 +2931,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:729
 #: assets/blocks/recipe-posts-carousel/inspector.js:647
 #: assets/blocks/recipe-posts/inspector.js:838
+#: assets/build/blocks.js:1200
 msgid "Contain"
 msgstr ""
 
@@ -2876,6 +2954,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:730
 #: assets/blocks/recipe-posts-carousel/inspector.js:651
 #: assets/blocks/recipe-posts/inspector.js:842
+#: assets/build/blocks.js:1200
 msgid "Cover"
 msgstr ""
 
@@ -2898,6 +2977,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:731
 #: assets/blocks/recipe-posts-carousel/inspector.js:655
 #: assets/blocks/recipe-posts/inspector.js:846
+#: assets/build/blocks.js:1200
 msgid "Fill"
 msgstr ""
 
@@ -2921,6 +3001,7 @@ msgstr ""
 #: assets/blocks/recipe-posts/inspector.js:193
 #: assets/blocks/recipe-posts/inspector.js:392
 #: assets/blocks/recipe-posts/inspector.js:982
+#: assets/build/blocks.js:1200
 msgid "Recipe Keys"
 msgstr ""
 
@@ -2942,6 +3023,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:894
 #: src/widgets/recipe-posts/recipe-posts.php:1063
 #: assets/blocks/recipe-posts/inspector.js:1164
+#: assets/build/blocks.js:1200
 msgid "Space Between"
 msgstr ""
 
@@ -2961,6 +3043,7 @@ msgstr ""
 #: assets/blocks/recipe-categories-tab/inspector.js:910
 #: assets/blocks/recipe-posts-carousel/inspector.js:819
 #: assets/blocks/recipe-posts/inspector.js:1045
+#: assets/build/blocks.js:1200
 msgid "Recipe Metas"
 msgstr ""
 
@@ -2981,6 +3064,7 @@ msgstr ""
 #: assets/blocks/recipe-posts-carousel/inspector.js:847
 #: assets/blocks/recipe-posts-carousel/inspector.js:850
 #: assets/blocks/recipe-posts/inspector.js:1073
+#: assets/build/blocks.js:1200
 msgid "Icon Color"
 msgstr ""
 
@@ -3009,12 +3093,14 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-two/recipe-posts-carousel-two.php:1005
 #: src/widgets/recipe-posts/recipe-posts.php:1085
 #: assets/blocks/recipe-posts/inspector.js:1187
+#: assets/build/blocks.js:1200
 msgid "Item Padding"
 msgstr ""
 
 #: src/widgets/recipe-categories-tab/recipe-categories-tab.php:348
 #: assets/blocks/recipe-categories-tab/inspector.js:377
 #: assets/blocks/recipe-categories-tab/inspector.js:380
+#: assets/build/blocks.js:1200
 msgid "Overlay Color"
 msgstr ""
 
@@ -3041,6 +3127,7 @@ msgid "Spacing Between"
 msgstr ""
 
 #: src/widgets/recipe-categories-three/recipe-categories-three.php:26
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:36
 msgid "Recipe Categories 3"
 msgstr ""
@@ -3064,6 +3151,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:82
 #: assets/blocks/recipe-categories/inspector.js:63
 #: assets/blocks/recipe-posts/inspector.js:84
+#: assets/build/blocks.js:1200
 msgid "Columns Gap"
 msgstr ""
 
@@ -3080,6 +3168,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:105
 #: assets/blocks/recipe-categories/inspector.js:86
 #: assets/blocks/recipe-posts/inspector.js:105
+#: assets/build/blocks.js:1200
 msgid "Rows Gap"
 msgstr ""
 
@@ -3087,6 +3176,7 @@ msgstr ""
 #: src/widgets/recipe-categories-two/recipe-categories-two.php:240
 #: src/widgets/recipe-categories/recipe-categories.php:205
 #: assets/blocks/recipe-categories/inspector.js:161
+#: assets/build/blocks.js:1200
 msgid "Hide Empty"
 msgstr ""
 
@@ -3108,6 +3198,7 @@ msgstr ""
 #: src/widgets/recipe-categories-two/recipe-categories-two.php:263
 #: src/widgets/recipe-categories/recipe-categories.php:228
 #: assets/blocks/recipe-categories/inspector.js:176
+#: assets/build/blocks.js:1200
 msgid "Category Image"
 msgstr ""
 
@@ -3119,6 +3210,7 @@ msgstr ""
 #: src/widgets/recipe-categories/recipe-categories.php:384
 #: assets/blocks/recipe-categories/inspector.js:186
 #: assets/blocks/recipe-categories/inspector.js:419
+#: assets/build/blocks.js:1200
 msgid "Category Name"
 msgstr ""
 
@@ -3126,6 +3218,7 @@ msgstr ""
 #: src/widgets/recipe-categories-two/recipe-categories-two.php:285
 #: src/widgets/recipe-categories/recipe-categories.php:250
 #: assets/blocks/recipe-categories/inspector.js:237
+#: assets/build/blocks.js:1200
 msgid "Category Tag"
 msgstr ""
 
@@ -3133,6 +3226,7 @@ msgstr ""
 #: src/widgets/recipe-categories-two/recipe-categories-two.php:307
 #: src/widgets/recipe-categories/recipe-categories.php:272
 #: assets/blocks/recipe-categories/inspector.js:247
+#: assets/build/blocks.js:1200
 msgid "Category Count"
 msgstr ""
 
@@ -3140,6 +3234,7 @@ msgstr ""
 #: src/widgets/recipe-categories-two/recipe-categories-two.php:333
 #: src/widgets/recipe-categories/recipe-categories.php:298
 #: assets/blocks/recipe-categories/inspector.js:267
+#: assets/build/blocks.js:1200
 msgid "Custom"
 msgstr ""
 
@@ -3157,10 +3252,12 @@ msgstr ""
 #: src/widgets/recipe-categories-two/recipe-categories-two.php:635
 #: src/widgets/recipe-categories/recipe-categories.php:427
 #: assets/blocks/recipe-categories/inspector.js:464
+#: assets/build/blocks.js:1200
 msgid "Count"
 msgstr ""
 
 #: src/widgets/recipe-categories-two/recipe-categories-two.php:26
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:27
 msgid "Recipe Categories 2"
 msgstr ""
@@ -3178,11 +3275,13 @@ msgid "Icon Settings"
 msgstr ""
 
 #: src/widgets/recipe-categories/recipe-categories.php:23
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:18
 msgid "Recipe Categories 1"
 msgstr ""
 
 #: src/widgets/recipe-grid-module-one/recipe-grid-module-one.php:23
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:135
 msgid "Recipe Grid Module 1"
 msgstr ""
@@ -3200,6 +3299,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:165
 #: assets/blocks/recipe-posts-carousel/inspector.js:113
 #: assets/blocks/recipe-posts/inspector.js:169
+#: assets/build/blocks.js:1200
 msgid "Filter By"
 msgstr ""
 
@@ -3260,6 +3360,7 @@ msgstr ""
 #: src/widgets/recipe-posts/recipe-posts.php:801
 #: assets/blocks/recipe-posts/inspector.js:401
 #: assets/blocks/recipe-posts/inspector.js:940
+#: assets/build/blocks.js:1200
 msgid "Excerpt"
 msgstr ""
 
@@ -3271,6 +3372,7 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-three/recipe-posts-carousel-three.php:429
 #: src/widgets/recipe-posts/recipe-posts.php:384
 #: assets/blocks/recipe-posts/inspector.js:412
+#: assets/build/blocks.js:1200
 msgid "Excerpt Length"
 msgstr ""
 
@@ -3287,6 +3389,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:449
 #: assets/blocks/recipe-posts-carousel/inspector.js:740
 #: assets/blocks/recipe-posts/inspector.js:926
+#: assets/build/blocks.js:1200
 msgid "Title Typography"
 msgstr ""
 
@@ -3316,6 +3419,7 @@ msgid "Please check the widget settings and make sure you have selected a valid 
 msgstr ""
 
 #: src/widgets/recipe-grid-module-two/recipe-grid-module-two.php:23
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:144
 msgid "Recipe Grid Module 2"
 msgstr ""
@@ -3325,6 +3429,7 @@ msgid "Max Height"
 msgstr ""
 
 #: src/widgets/recipe-grid-one/recipe-grid-one.php:23
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:90
 msgid "Recipe Grid 1"
 msgstr ""
@@ -3471,6 +3576,7 @@ msgid "Load More Button"
 msgstr ""
 
 #: src/widgets/recipe-grid-two/recipe-grid-two.php:23
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:99
 msgid "Recipe Grid 2"
 msgstr ""
@@ -3485,6 +3591,7 @@ msgid "Counter"
 msgstr ""
 
 #: src/widgets/recipe-post-list-one/recipe-post-list-one.php:22
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:108
 msgid "Recipe Post List 1"
 msgstr ""
@@ -3500,6 +3607,7 @@ msgstr ""
 #: src/widgets/recipe-post-list-two/recipe-post-list-two.php:626
 #: assets/blocks/recipe-posts-carousel/inspector.js:250
 #: assets/blocks/recipe-posts/inspector.js:306
+#: assets/build/blocks.js:1200
 msgid "Featured Image"
 msgstr ""
 
@@ -3522,6 +3630,7 @@ msgid "Separator Color"
 msgstr ""
 
 #: src/widgets/recipe-post-list-three/recipe-post-list-three.php:22
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:126
 msgid "Recipe Post List 3"
 msgstr ""
@@ -3536,6 +3645,7 @@ msgstr ""
 
 #: src/widgets/recipe-post-list-three/recipe-post-list-three.php:682
 #: assets/blocks/recipe-posts/inspector.js:1225
+#: assets/build/blocks.js:1200
 msgid "Category Color"
 msgstr ""
 
@@ -3545,6 +3655,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:422
 #: assets/blocks/recipe-posts-carousel/inspector.js:676
 #: assets/blocks/recipe-posts/inspector.js:862
+#: assets/build/blocks.js:1200
 msgid "Title Color"
 msgstr ""
 
@@ -3581,6 +3692,7 @@ msgid "Counter Border Radius"
 msgstr ""
 
 #: src/widgets/recipe-post-list-two/recipe-post-list-two.php:22
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Widgets/index.jsx:117
 msgid "Recipe Post List 2"
 msgstr ""
@@ -3601,6 +3713,7 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-two/recipe-posts-carousel-two.php:332
 #: src/widgets/recipe-posts-carousel/recipe-posts-carousel.php:818
 #: assets/blocks/recipe-posts-carousel/inspector.js:954
+#: assets/build/blocks.js:1200
 msgid "Navigation"
 msgstr ""
 
@@ -3632,6 +3745,7 @@ msgstr ""
 #: src/widgets/recipe-posts-carousel-two/recipe-posts-carousel-two.php:267
 #: src/widgets/recipe-posts-carousel/recipe-posts-carousel.php:802
 #: assets/blocks/recipe-posts-carousel/inspector.js:939
+#: assets/build/blocks.js:1200
 msgid "Slide Item Gap"
 msgstr ""
 
@@ -3641,11 +3755,13 @@ msgstr ""
 
 #: src/widgets/recipe-posts-carousel/recipe-posts-carousel.php:785
 #: assets/blocks/recipe-posts-carousel/inspector.js:925
+#: assets/build/blocks.js:1200
 msgid "Recipes per Slide"
 msgstr ""
 
 #: src/widgets/recipe-posts-carousel/recipe-posts-carousel.php:828
 #: assets/blocks/recipe-posts-carousel/inspector.js:964
+#: assets/build/blocks.js:1200
 msgid "Navigation Size"
 msgstr ""
 
@@ -3694,6 +3810,7 @@ msgid "Select logo"
 msgstr ""
 
 #: assets/@components/controls/Select.jsx:240
+#: assets/build/blocks.js:457
 msgid "Search..."
 msgstr ""
 
@@ -3701,12 +3818,14 @@ msgstr ""
 #: assets/blocks/blocks.js:68
 #: assets/blocks/blocks.js:102
 #: assets/blocks/blocks.js:128
+#: assets/build/blocks.js:1200
 msgid "Recipe"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:75
 #: assets/blocks/recipe-posts-carousel/inspector.js:71
 #: assets/blocks/recipe-posts/inspector.js:129
+#: assets/build/blocks.js:1200
 msgid "Number of Posts"
 msgstr ""
 
@@ -3714,6 +3833,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:112
 #: assets/blocks/recipe-posts-carousel/inspector.js:124
 #: assets/blocks/recipe-posts/inspector.js:181
+#: assets/build/blocks.js:1200
 msgid "Recipe Courses"
 msgstr ""
 
@@ -3721,6 +3841,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:116
 #: assets/blocks/recipe-posts-carousel/inspector.js:128
 #: assets/blocks/recipe-posts/inspector.js:185
+#: assets/build/blocks.js:1200
 msgid "Recipe Cuisines"
 msgstr ""
 
@@ -3728,6 +3849,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:120
 #: assets/blocks/recipe-posts-carousel/inspector.js:132
 #: assets/blocks/recipe-posts/inspector.js:189
+#: assets/build/blocks.js:1200
 msgid "Recipe Cooking Methods"
 msgstr ""
 
@@ -3735,6 +3857,7 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:128
 #: assets/blocks/recipe-posts-carousel/inspector.js:140
 #: assets/blocks/recipe-posts/inspector.js:197
+#: assets/build/blocks.js:1200
 msgid "Recipe Tags"
 msgstr ""
 
@@ -3742,219 +3865,358 @@ msgstr ""
 #: assets/blocks/recipe-categories/inspector.js:132
 #: assets/blocks/recipe-posts-carousel/inspector.js:144
 #: assets/blocks/recipe-posts/inspector.js:201
+#: assets/build/blocks.js:1200
 msgid "Recipe Badges"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:175
 #: assets/blocks/recipe-posts-carousel/inspector.js:193
 #: assets/blocks/recipe-posts/inspector.js:249
+#: assets/build/blocks.js:1200
 msgid "Comments"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:186
 #: assets/blocks/recipe-posts-carousel/inspector.js:204
 #: assets/blocks/recipe-posts/inspector.js:260
+#: assets/build/blocks.js:1200
 msgid "Order By"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:215
 #: assets/blocks/recipe-posts-carousel/inspector.js:233
 #: assets/blocks/recipe-posts/inspector.js:289
+#: assets/build/blocks.js:1200
 msgid "Search for a recipe"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:219
 #: assets/blocks/recipe-posts-carousel/inspector.js:237
 #: assets/blocks/recipe-posts/inspector.js:293
+#: assets/build/blocks.js:1200
 msgid "Exclude"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:352
 #: assets/blocks/recipe-posts-carousel/inspector.js:321
 #: assets/blocks/recipe-posts/inspector.js:374
+#: assets/build/blocks.js:1200
 msgid "Total Time"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:567
+#: assets/build/blocks.js:1200
 msgid "Title Padding"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:619
+#: assets/build/blocks.js:1200
 msgid "Tab Item Color"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:646
+#: assets/build/blocks.js:1200
 msgid "Tab Item Background Color"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:673
+#: assets/build/blocks.js:1200
 msgid "Tabs Padding"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:711
+#: assets/build/blocks.js:1200
 msgid "Tabs Border Radius"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:772
+#: assets/build/blocks.js:1200
 msgid "Tabs Typography"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:790
+#: assets/build/blocks.js:1200
 msgid "Arrows Color"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:817
+#: assets/build/blocks.js:1200
 msgid "Arrows Background Color"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:844
+#: assets/build/blocks.js:1200
 msgid "Arrows Border"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:957
 #: assets/blocks/recipe-posts-carousel/inspector.js:860
 #: assets/blocks/recipe-posts/inspector.js:1092
+#: assets/build/blocks.js:1200
 msgid "Meta Typography"
 msgstr ""
 
 #: assets/blocks/recipe-categories-tab/inspector.js:989
 #: assets/blocks/recipe-posts-carousel/inspector.js:886
 #: assets/blocks/recipe-posts/inspector.js:1124
+#: assets/build/blocks.js:1200
 msgid "Meta Spacing"
 msgstr ""
 
 #: assets/blocks/recipe-categories/inspector.js:48
+#: assets/build/blocks.js:1200
 msgid "Categories per row"
 msgstr ""
 
 #: assets/blocks/recipe-categories/inspector.js:274
+#: assets/build/blocks.js:1200
 msgid "Background Color From"
 msgstr ""
 
 #: assets/blocks/recipe-categories/inspector.js:572
 #: assets/blocks/recipe-posts/inspector.js:1375
+#: assets/build/blocks.js:1200
 msgid "Category Typography"
 msgstr ""
 
 #: assets/blocks/recipe-posts-carousel/inspector.js:102
 #: assets/blocks/recipe-posts/inspector.js:159
+#: assets/build/blocks.js:1200
 msgid "Latest"
 msgstr ""
 
 #: assets/blocks/recipe-posts-carousel/inspector.js:600
 #: assets/blocks/recipe-posts/inspector.js:777
+#: assets/build/blocks.js:1200
 msgid "Image Radius"
 msgstr ""
 
 #: assets/blocks/recipe-posts-carousel/inspector.js:703
 #: assets/blocks/recipe-posts/inspector.js:889
+#: assets/build/blocks.js:1200
 msgid "Title Margin"
 msgstr ""
 
 #: assets/blocks/recipe-posts-carousel/inspector.js:783
 #: assets/blocks/recipe-posts/inspector.js:1010
+#: assets/build/blocks.js:1200
 msgid "Icon Space"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:71
+#: assets/build/blocks.js:1200
 msgid "Columns"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:480
+#: assets/build/blocks.js:1200
 msgid "Read More Text"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:698
+#: assets/build/blocks.js:1200
 msgid "N"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:816
+#: assets/build/blocks.js:1200
 msgid "Image Alignment"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:944
+#: assets/build/blocks.js:1200
 msgid "Excerpt Typography"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:957
+#: assets/build/blocks.js:1200
 msgid "Excerpt Color"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:969
+#: assets/build/blocks.js:1200
 msgid "Excerpt Alignment"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:1279
+#: assets/build/blocks.js:1200
 msgid "Category Border"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:1338
+#: assets/build/blocks.js:1200
 msgid "Category Margin"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:1406
+#: assets/build/blocks.js:1200
 msgid "Arrow"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:1470
+#: assets/build/blocks.js:1200
 msgid "Button Border"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:1542
+#: assets/build/blocks.js:1200
 msgid "Button Padding"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:1580
+#: assets/build/blocks.js:1200
 msgid "Button Margin"
 msgstr ""
 
 #: assets/blocks/recipe-posts/inspector.js:1617
+#: assets/build/blocks.js:1200
 msgid "Button Typography"
 msgstr ""
 
+#: assets/build/dashboard.js:1
+#: assets/dashboard/components/Tab/index.jsx:13
+msgid "Pro Logo"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/components/Tab/index.jsx:14
+msgid "Get access to all Pro widgets and blocks."
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/components/Tab/index.jsx:15
+msgid "Get Pro"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/components/TabHeader/index.jsx:7
+msgid "View Website"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/components/TabHeader/index.jsx:12
+msgid "View Tutorials"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/components/TabHeader/index.jsx:17
+msgid "Contact Support"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/components/TabHeader/index.jsx:22
+msgid "Docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
 #: assets/dashboard/components/Card/index.jsx:17
 msgid "View Demo"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/components/Card/index.jsx:19
 #: assets/dashboard/pages/Offers/index.jsx:13
 #: assets/dashboard/pages/Offers/index.jsx:73
 msgid "Get it Now"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/components/SwitchControl/index.jsx:8
 #: assets/dashboard/pages/Widgets/index.jsx:493
 msgid "NEW"
 msgstr ""
 
-#: assets/dashboard/components/Tab/index.jsx:13
-msgid "Pro Logo"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:10
+msgid "We Value Your Feedback!"
 msgstr ""
 
-#: assets/dashboard/components/Tab/index.jsx:14
-msgid "Get access to all Pro widgets and blocks."
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:12
+msgid "Please take a moment to share your experience with us. Your insights help us improve and assist others in making informed decisions."
 msgstr ""
 
-#: assets/dashboard/components/Tab/index.jsx:15
-msgid "Get Pro"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:14
+msgid "Leave a Review"
 msgstr ""
 
-#: assets/dashboard/components/TabHeader/index.jsx:7
-msgid "View Website"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:15
+msgid "https://wordpress.org/support/plugin/dr-widgets-blocks/reviews/"
 msgstr ""
 
-#: assets/dashboard/components/TabHeader/index.jsx:12
-msgid "View Tutorials"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:18
+msgid "Knowledge Base"
 msgstr ""
 
-#: assets/dashboard/components/TabHeader/index.jsx:17
-msgid "Contact Support"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:19
+msgid "Need help using our plugin? Visit our well-organized Knowledge Base!"
 msgstr ""
 
-#: assets/dashboard/components/TabHeader/index.jsx:22
-msgid "Docs"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:21
+msgid "Explore"
 msgstr ""
 
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:25
+msgid "Need Assistance? "
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:26
+msgid "If you need help or have any questions, don't hesitate to contact our support team. We're here to assist you!"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:28
+msgid "Submit a Ticket"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:40
+msgid "Delisho - Recipe Widgets and Blocks comes with a library of "
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:40
+msgid "22+"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:40
+msgid " Elementor widgets and"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:40
+msgid "4 "
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:40
+msgid " Gutenberg Blocks to create a beautiful recipe website."
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Home/index.jsx:42
+msgid "Learn more about the Pro version"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:13
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:14
+msgid "https://wpdelicious.com/docs/recipe-posts/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Blocks/index.jsx:13
 #: assets/dashboard/pages/Blocks/index.jsx:14
 #: assets/dashboard/pages/Blocks/index.jsx:15
@@ -4007,647 +4269,716 @@ msgstr ""
 msgid "#"
 msgstr ""
 
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:22
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-1/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:23
+msgid "https://wpdelicious.com/docs/recipe-categories-1/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:31
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-2/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:32
+msgid "https://wpdelicious.com/docs/recipe-categories-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:40
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-3/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:41
+msgid "https://wpdelicious.com/docs/recipe-categories-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:49
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:50
+msgid "https://wpdelicious.com/docs/recipe-categories-tab/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:58
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab-2/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:59
+msgid "https://wpdelicious.com/docs/recipe-categories-tab-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:67
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:68
+msgid "https://wpdelicious.com/docs/recipe-posts-carousel/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:72
+msgid "Recipe Posts Carousel Two"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:76
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-2/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:77
+msgid "https://wpdelicious.com/docs/recipe-posts-carousel-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:81
+msgid "Recipe Posts Carousel Three"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:85
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-3/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:86
+msgid "https://wpdelicious.com/docs/recipe-posts-carousel-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:94
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-1/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:95
+msgid "https://wpdelicious.com/docs/recipe-grid-1/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:103
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-2/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:104
+msgid "https://wpdelicious.com/docs/recipe-grid-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:112
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-1/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:113
+msgid "https://wpdelicious.com/docs/recipe-post-list-1/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:121
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-2/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:122
+msgid "https://wpdelicious.com/docs/recipe-post-list-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:130
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-3/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:131
+msgid "https://wpdelicious.com/docs/recipe-post-list-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:139
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-1/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:140
+msgid "https://wpdelicious.com/docs/recipe-grid-module-1/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:148
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-2/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:149
+msgid "https://wpdelicious.com/docs/recipe-grid-module-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:157
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/advanced-heading/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:158
+msgid "https://wpdelicious.com/docs/advanced-heading/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:165
+msgid "Recipe Accordion 1"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:168
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-accordion-1/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:169
+msgid "https://wpdelicious.com/docs/recipe-accordion-one/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:174
+msgid "Recipe Accordion 2"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:177
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-accordion-2/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:178
+msgid "https://wpdelicious.com/docs/recipe-accordion-two/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:182
+msgid "Recipe Post List 4"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:185
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-4/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:186
+msgid "https://wpdelicious.com/docs/recipe-post-list-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:190
+msgid "Recipe Grid 3"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:193
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-3/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:194
+msgid "https://wpdelicious.com/docs/recipe-grid-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:198
+msgid "Recipe Grid 4"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:201
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-4/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:202
+msgid "https://wpdelicious.com/docs/recipe-grid-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:206
+msgid "Recipe Grid 5"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:209
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-5/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:210
+msgid "https://wpdelicious.com/docs/recipe-grid-5/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:214
+msgid "Recipe Categories 4"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:217
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-4/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:218
+msgid "https://wpdelicious.com/docs/recipe-categories-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:222
+msgid "Recipe Grid Module 3"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:225
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-3/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:226
+msgid "https://wpdelicious.com/docs/recipe-grid-module-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:230
+msgid "Recipe Grid Module 4"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:233
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-4/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:234
+msgid "https://wpdelicious.com/docs/recipe-grid-module-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:238
+msgid "Recipe Grid Module 5"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:241
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-5/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:242
+msgid "https://wpdelicious.com/docs/recipe-grid-module-5/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:246
+msgid "Recipe Grid Module 6"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:249
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-6/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:250
+msgid "https://wpdelicious.com/docs/recipe-grid-module-6/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:254
+msgid "Recipe Categories Slider"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:258
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-slider/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:259
+msgid "https://wpdelicious.com/docs/recipe-categories-slider/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:263
+msgid "Advanced Recipe Slider"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:268
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/advanced-recipe-slider/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:269
+msgid "https://wpdelicious.com/docs/advanced-recipe-slider/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:273
+msgid "Recipe Cateogries Tab 3"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:278
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab-3/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:279
+msgid "https://wpdelicious.com/docs/recipe-categories-tab-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:283
+msgid "Recipe Cateogries Tab 4"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:288
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab-4/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:289
+msgid "https://wpdelicious.com/docs/recipe-categories-tab-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:293
+msgid "Recipe Posts Carousel Four"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:298
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-4/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:299
+msgid "https://wpdelicious.com/docs/recipe-posts-carousel-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:303
+msgid "Recipe Posts Carousel Five"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:308
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-5/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:309
+msgid "https://wpdelicious.com/docs/recipe-posts-carousel-5/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:313
+msgid "Recipe Posts Carousel Six"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:318
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-6/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:319
+msgid "https://wpdelicious.com/docs/recipe-posts-carousel-6/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:323
+msgid "Recipe Search"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:328
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/custom-recipe-index/"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:329
+msgid "https://wpdelicious.com/docs/recipe-search/?utm_source=delisho_pro&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:333
+msgid "Recipe Ingredients"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:338
+msgid "https://demo.wpdelicious.com/widgets-blocks-demo/custom-recipe-index/#recipe-ingredient"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:339
+msgid "https://wpdelicious.com/docs/recipe-ingredients/?utm_source=delisho_pro&utm_medium=dashboard&utm_campaign=docs"
+msgstr ""
+
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Blocks/index.jsx:129
 #: assets/dashboard/pages/Widgets/index.jsx:439
 msgid "Free Widgets"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Blocks/index.jsx:132
 #: assets/dashboard/pages/Widgets/index.jsx:442
 msgid "Pro Widgets"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Blocks/index.jsx:140
 #: assets/dashboard/pages/Widgets/index.jsx:451
 msgid "Enable All"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Blocks/index.jsx:148
 #: assets/dashboard/pages/Widgets/index.jsx:460
 msgid "Disable All"
 msgstr ""
 
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:499
+msgid "Live Demo"
+msgstr ""
+
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/Widgets/index.jsx:500
+msgid "Doc"
+msgstr ""
+
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Blocks/index.jsx:193
 #: assets/dashboard/pages/Widgets/index.jsx:526
 msgid "Save Changes"
 msgstr ""
 
-#: assets/dashboard/pages/Home/index.jsx:10
-msgid "We Value Your Feedback!"
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:12
-msgid "Please take a moment to share your experience with us. Your insights help us improve and assist others in making informed decisions."
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:14
-msgid "Leave a Review"
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:15
-msgid "https://wordpress.org/support/plugin/dr-widgets-blocks/reviews/"
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:18
-msgid "Knowledge Base"
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:19
-msgid "Need help using our plugin? Visit our well-organized Knowledge Base!"
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:21
-msgid "Explore"
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:25
-msgid "Need Assistance? "
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:26
-msgid "If you need help or have any questions, don't hesitate to contact our support team. We're here to assist you!"
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:28
-msgid "Submit a Ticket"
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:40
-msgid "Delisho - Recipe Widgets and Blocks comes with a library of "
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:40
-msgid "22+"
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:40
-msgid " Elementor widgets and"
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:40
-msgid "4 "
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:40
-msgid " Gutenberg Blocks to create a beautiful recipe website."
-msgstr ""
-
-#: assets/dashboard/pages/Home/index.jsx:42
-msgid "Learn more about the Pro version"
-msgstr ""
-
-#: assets/dashboard/pages/index.js:17
-msgid "Home"
-msgstr ""
-
-#: assets/dashboard/pages/index.js:22
-msgid "Widgets"
-msgstr ""
-
-#: assets/dashboard/pages/index.js:27
-msgid "Blocks"
-msgstr ""
-
-#: assets/dashboard/pages/index.js:33
-msgid "Offers"
-msgstr ""
-
-#: assets/dashboard/pages/index.js:38
-msgid "Themes"
-msgstr ""
-
-#: assets/dashboard/pages/index.js:45
-msgid "License"
-msgstr ""
-
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Offers/index.jsx:22
 msgid "WP Delicious Pro"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Offers/index.jsx:25
 #: assets/dashboard/pages/Themes/index.jsx:10
 msgid "Yummy Bites Pro"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Offers/index.jsx:28
 msgid "60,000+ Recipe Keywords"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Offers/index.jsx:31
 msgid "Delisho Pro"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Offers/index.jsx:34
 msgid "Access to all future products"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Offers/index.jsx:41
 msgid "Grow Your Food Blog with WP Delicious Pro"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Offers/index.jsx:42
 msgid "WP Delicious Pro offers advanced features to create stunning recipes with ease, attract more readers, and boost engagement."
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Offers/index.jsx:47
 msgid "Skyrocket Your Food Blog's SEO!"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Offers/index.jsx:48
 msgid "Unleash the Full Potential of Your Food Blog with Our Game-Changing Keyword Research file with 60,000+ Food and Recipe Keywords."
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Offers/index.jsx:60
 msgid "Get Lifetime Access to all WP Delicious Products"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Offers/index.jsx:63
 msgid "Create a feature-rich and SEO-friendly food blog with our ultimate tools. With All Access Bundle, you get access to:"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:11
 msgid " https://demo.wpdelicious.com/yummy-bites-pro/ "
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:18
 msgid "Cookery"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:19
 msgid " https://blossomthemesdemo.com/cookery/"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:26
 msgid "Blossom Recipe Pro"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:27
 msgid "https://blossomthemesdemo.com/blossom-recipe-pro/"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:34
 msgid "Vilva Pro"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:35
 msgid "https://blossomthemesdemo.com/vilva-pro/"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:42
 msgid "Yummy Bites"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:43
 msgid "https://demo.wpdelicious.com/yummy-bites/"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:49
 msgid "Cookery Lite"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:50
 msgid " https://blossomthemesdemo.com/cookery-lite/ "
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:56
 msgid "Blossom Recipe"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:57
 msgid " https://blossomthemesdemo.com/blossom-recipe/ "
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:63
 msgid "Cook Recipe"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:64
 msgid " https://blossomthemesdemo.com/cook-recipe/ "
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:70
 msgid "Yummy Recipe"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:71
 msgid " https://blossomthemesdemo.com/yummy-recipe/ "
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:83
 msgid "Pro Recipe Themes"
 msgstr ""
 
+#: assets/build/dashboard.js:1
 #: assets/dashboard/pages/Themes/index.jsx:84
 msgid "Free Recipe Themes"
 msgstr ""
 
-#: assets/dashboard/pages/Widgets/index.jsx:13
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts/"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/index.js:17
+msgid "Home"
 msgstr ""
 
-#: assets/dashboard/pages/Widgets/index.jsx:14
-msgid "https://wpdelicious.com/docs/recipe-posts/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/index.js:22
+msgid "Widgets"
 msgstr ""
 
-#: assets/dashboard/pages/Widgets/index.jsx:22
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-1/"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/index.js:27
+msgid "Blocks"
 msgstr ""
 
-#: assets/dashboard/pages/Widgets/index.jsx:23
-msgid "https://wpdelicious.com/docs/recipe-categories-1/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/index.js:33
+msgid "Offers"
 msgstr ""
 
-#: assets/dashboard/pages/Widgets/index.jsx:31
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-2/"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/index.js:38
+msgid "Themes"
 msgstr ""
 
-#: assets/dashboard/pages/Widgets/index.jsx:32
-msgid "https://wpdelicious.com/docs/recipe-categories-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
+#: assets/build/dashboard.js:1
+#: assets/dashboard/pages/index.js:45
+msgid "License"
 msgstr ""
 
-#: assets/dashboard/pages/Widgets/index.jsx:40
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-3/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:41
-msgid "https://wpdelicious.com/docs/recipe-categories-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:49
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:50
-msgid "https://wpdelicious.com/docs/recipe-categories-tab/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:58
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab-2/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:59
-msgid "https://wpdelicious.com/docs/recipe-categories-tab-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:67
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:68
-msgid "https://wpdelicious.com/docs/recipe-posts-carousel/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:72
-msgid "Recipe Posts Carousel Two"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:76
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-2/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:77
-msgid "https://wpdelicious.com/docs/recipe-posts-carousel-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:81
-msgid "Recipe Posts Carousel Three"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:85
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-3/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:86
-msgid "https://wpdelicious.com/docs/recipe-posts-carousel-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:94
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-1/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:95
-msgid "https://wpdelicious.com/docs/recipe-grid-1/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:103
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-2/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:104
-msgid "https://wpdelicious.com/docs/recipe-grid-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:112
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-1/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:113
-msgid "https://wpdelicious.com/docs/recipe-post-list-1/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:121
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-2/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:122
-msgid "https://wpdelicious.com/docs/recipe-post-list-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:130
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-3/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:131
-msgid "https://wpdelicious.com/docs/recipe-post-list-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:139
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-1/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:140
-msgid "https://wpdelicious.com/docs/recipe-grid-module-1/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:148
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-2/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:149
-msgid "https://wpdelicious.com/docs/recipe-grid-module-2/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:157
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/advanced-heading/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:158
-msgid "https://wpdelicious.com/docs/advanced-heading/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:165
-msgid "Recipe Accordion 1"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:168
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-accordion-1/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:169
-msgid "https://wpdelicious.com/docs/recipe-accordion-one/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:174
-msgid "Recipe Accordion 2"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:177
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-accordion-2/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:178
-msgid "https://wpdelicious.com/docs/recipe-accordion-two/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:182
-msgid "Recipe Post List 4"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:185
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-4/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:186
-msgid "https://wpdelicious.com/docs/recipe-post-list-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:190
-msgid "Recipe Grid 3"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:193
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-3/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:194
-msgid "https://wpdelicious.com/docs/recipe-grid-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:198
-msgid "Recipe Grid 4"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:201
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-4/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:202
-msgid "https://wpdelicious.com/docs/recipe-grid-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:206
-msgid "Recipe Grid 5"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:209
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-5/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:210
-msgid "https://wpdelicious.com/docs/recipe-grid-5/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:214
-msgid "Recipe Categories 4"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:217
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-4/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:218
-msgid "https://wpdelicious.com/docs/recipe-categories-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:222
-msgid "Recipe Grid Module 3"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:225
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-3/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:226
-msgid "https://wpdelicious.com/docs/recipe-grid-module-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:230
-msgid "Recipe Grid Module 4"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:233
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-4/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:234
-msgid "https://wpdelicious.com/docs/recipe-grid-module-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:238
-msgid "Recipe Grid Module 5"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:241
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-5/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:242
-msgid "https://wpdelicious.com/docs/recipe-grid-module-5/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:246
-msgid "Recipe Grid Module 6"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:249
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-6/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:250
-msgid "https://wpdelicious.com/docs/recipe-grid-module-6/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:254
-msgid "Recipe Categories Slider"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:258
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-slider/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:259
-msgid "https://wpdelicious.com/docs/recipe-categories-slider/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:263
-msgid "Advanced Recipe Slider"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:268
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/advanced-recipe-slider/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:269
-msgid "https://wpdelicious.com/docs/advanced-recipe-slider/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:273
-msgid "Recipe Cateogries Tab 3"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:278
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab-3/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:279
-msgid "https://wpdelicious.com/docs/recipe-categories-tab-3/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:283
-msgid "Recipe Cateogries Tab 4"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:288
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab-4/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:289
-msgid "https://wpdelicious.com/docs/recipe-categories-tab-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:293
-msgid "Recipe Posts Carousel Four"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:298
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-4/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:299
-msgid "https://wpdelicious.com/docs/recipe-posts-carousel-4/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:303
-msgid "Recipe Posts Carousel Five"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:308
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-5/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:309
-msgid "https://wpdelicious.com/docs/recipe-posts-carousel-5/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:313
-msgid "Recipe Posts Carousel Six"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:318
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-6/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:319
-msgid "https://wpdelicious.com/docs/recipe-posts-carousel-6/?utm_source=delisho&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:323
-msgid "Recipe Search"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:328
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/custom-recipe-index/"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:329
-msgid "https://wpdelicious.com/docs/recipe-search/?utm_source=delisho_pro&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:333
-msgid "Recipe Ingredients"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:338
-msgid "https://demo.wpdelicious.com/widgets-blocks-demo/custom-recipe-index/#recipe-ingredient"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:339
-msgid "https://wpdelicious.com/docs/recipe-ingredients/?utm_source=delisho_pro&utm_medium=dashboard&utm_campaign=docs"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:499
-msgid "Live Demo"
-msgstr ""
-
-#: assets/dashboard/pages/Widgets/index.jsx:500
-msgid "Doc"
-msgstr ""
-
+#: assets/build/blocks/recipe-categories-tab/block.json
 #: src/blocks/recipe-categories-tab/block.json
 msgctxt "block title"
 msgid "Recipe Categories Tab"
 msgstr ""
 
+#: assets/build/blocks/recipe-categories/block.json
 #: src/blocks/recipe-categories/block.json
 msgctxt "block title"
 msgid "Recipe Categories"
 msgstr ""
 
+#: assets/build/blocks/recipe-posts-carousel/block.json
 #: src/blocks/recipe-posts-carousel/block.json
 msgctxt "block title"
 msgid "Recipe Posts Carousel"
 msgstr ""
 
+#: assets/build/blocks/recipe-posts/block.json
 #: src/blocks/recipe-posts/block.json
 msgctxt "block title"
 msgid "Recipe Posts"

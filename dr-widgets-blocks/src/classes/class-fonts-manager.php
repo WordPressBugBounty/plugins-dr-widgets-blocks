@@ -348,8 +348,8 @@ class Fonts_Manager {
 			)
 		);
 
-		$default_variation = $default_family['variation'];
-		$default_family    = $default_family['fontFamily'];
+		$default_variation = isset($default_family['variation']) ? $default_family['variation'] : 'n4';
+		$default_family    = isset($default_family['fontFamily']) ? $default_family['fontFamily'] : 'System Default';
 
 		$all_google_fonts = $this->get_googgle_fonts( true );
 
@@ -382,10 +382,13 @@ class Fonts_Manager {
 				continue;
 			}
 
+			// Ensure 'variation' key exists before using it
+			$variation = isset($value['variation']) ? $value['variation'] : $default_variation;
+
 			if ( ! isset( $to_enqueue[ $value['fontFamily'] ] ) ) {
-				$to_enqueue[ $value['fontFamily'] ] = array( $value['variation'] );
+				$to_enqueue[ $value['fontFamily'] ] = array( $variation );
 			} else {
-				$to_enqueue[ $value['fontFamily'] ][] = $value['variation'];
+				$to_enqueue[ $value['fontFamily'] ][] = $variation;
 			}
 
 			$to_enqueue[ $value['fontFamily'] ] = array_unique(
