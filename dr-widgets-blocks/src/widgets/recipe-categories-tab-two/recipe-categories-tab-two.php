@@ -1473,25 +1473,33 @@ class Widget_Recipe_Categories_Tab_Two extends Widget {
 
 		$categories = [];
 
+		// Normalize terms to ensure proper type handling
+		$has_specific_terms = is_array( $terms ) ? ! empty( array_filter( $terms ) ) : ( ! empty( $terms ) && '' !== $terms );
+
 		if(!$all_taxonomy){
-			$categories = get_terms(
-				array(
-					'taxonomy'   => $taxonomy,
-					'include'    => $terms,
-					'hide_empty' => true,
-					'orderby'    => 'include',
-				)
+			$term_args = array(
+				'taxonomy'   => $taxonomy,
+				'hide_empty' => true,
 			);
+			// Only add 'include' and 'orderby' if specific terms are selected
+			if ( $has_specific_terms ) {
+				$term_args['include'] = $terms;
+				$term_args['orderby'] = 'include';
+			}
+			$categories = get_terms( $term_args );
 		} else {
-			$categories = get_terms(
-				array(
-					'taxonomy'   => ['recipe-course', 'recipe-badge', 'recipe-cuisine', 'recipe-tag', 'recipe-cooking-method', 'recipe-key', 'recipe-cooking-method', 'recipe-dietary'],
-					'hide_empty' => true,
-					'include'    => $list_term_ids,
-				)
+			$term_args = array(
+				'taxonomy'   => ['recipe-course', 'recipe-badge', 'recipe-cuisine', 'recipe-tag', 'recipe-cooking-method', 'recipe-key', 'recipe-cooking-method', 'recipe-dietary'],
+				'hide_empty' => true,
 			);
+			// Only add 'include' if specific terms are selected
+			$has_specific_all_terms = ! empty( array_filter( $list_term_ids ) );
+			if ( $has_specific_all_terms ) {
+				$term_args['include'] = $list_term_ids;
+			}
+			$categories = get_terms( $term_args );
 		}
-		
+
 		if ( empty( $categories ) || is_wp_error( $categories ) ) {
 			?>
 				<p>

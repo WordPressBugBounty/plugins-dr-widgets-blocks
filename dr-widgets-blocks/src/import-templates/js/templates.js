@@ -236,7 +236,7 @@
     }
 
     async function fetchRequiredPlugins() {
-        let response = await fetch(`https://demo.wpdelicious.com/widgets-blocks-demo/wp-json/delisho-elementor-templates/v1/patterns/`);
+        let response = await fetch(`https://wpdeliciousdemo.com/widgets-blocks-demo/wp-json/delisho-elementor-templates/v1/patterns/`);
         let designApi = await response.json();
         const requiredPlugins = {};
         const isPro = {};
@@ -339,7 +339,7 @@
 
                     $(this).attr("disabled", true);
 
-                    let contentURL = `https://demo.wpdelicious.com/widgets-blocks-demo/wp-json/delisho-elementor-templates/v1/patterns/${templateID}`;
+                    let contentURL = `https://wpdeliciousdemo.com/widgets-blocks-demo/wp-json/delisho-elementor-templates/v1/patterns/${templateID}`;
 
                     $.ajax({
                         url: delishoAdmin.ajaxURL,

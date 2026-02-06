@@ -57,7 +57,7 @@ class DR_Widgets_Blocks_Styles {
 					'methods'             => 'POST',
 					'callback'            => array( $this, 'save_block_content_css' ),
 					'permission_callback' => function () {
-						return current_user_can( 'edit_posts' );
+						return current_user_can( 'manage_options' );
 					},
 					'args'                => array(),
 				),

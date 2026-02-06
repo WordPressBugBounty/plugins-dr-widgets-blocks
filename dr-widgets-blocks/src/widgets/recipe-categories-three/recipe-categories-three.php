@@ -662,26 +662,34 @@ class Widget_Recipe_Categories_Three extends Widget {
 		$list_term_ids = array_map(function($term) {
 			return (int)substr(strrchr($term, '_'), 1);
 		}, $all_term_id);
-		
+
+		// Normalize terms to ensure proper type handling
+		$has_specific_terms = is_array( $terms ) ? ! empty( array_filter( $terms ) ) : ( ! empty( $terms ) && '' !== $terms );
+
 		$categories = [];
 		if(!$all_taxonomy){
-			$categories = get_terms(
-				array(
-					'taxonomy'   => $taxonomy,
-					'include'    => $terms,
-					'hide_empty' => $hide_empty,
-					'count'      => true,
-					'orderby'    => 'include',
-				)
+			$term_args = array(
+				'taxonomy'   => $taxonomy,
+				'hide_empty' => $hide_empty,
+				'count'      => true,
 			);
+			// Only add 'include' and 'orderby' if specific terms are selected
+			if ( $has_specific_terms ) {
+				$term_args['include'] = $terms;
+				$term_args['orderby'] = 'include';
+			}
+			$categories = get_terms( $term_args );
 		} else {
-			$categories = get_terms(
-				array(
-					'taxonomy'   => ['recipe-course', 'recipe-badge', 'recipe-cuisine', 'recipe-tag', 'recipe-cooking-method', 'recipe-key', 'recipe-cooking-method', 'recipe-dietary'],
-					'hide_empty' => true,
-					'include'    => $list_term_ids,
-				)
+			$term_args = array(
+				'taxonomy'   => ['recipe-course', 'recipe-badge', 'recipe-cuisine', 'recipe-tag', 'recipe-cooking-method', 'recipe-key', 'recipe-cooking-method', 'recipe-dietary'],
+				'hide_empty' => true,
 			);
+			// Only add 'include' if specific terms are selected
+			$has_specific_all_terms = ! empty( array_filter( $list_term_ids ) );
+			if ( $has_specific_all_terms ) {
+				$term_args['include'] = $list_term_ids;
+			}
+			$categories = get_terms( $term_args );
 		}
 		if ( empty( $categories ) || is_wp_error( $categories ) ) {
 			?>
@@ -693,12 +701,12 @@ class Widget_Recipe_Categories_Three extends Widget {
 		}
 
 		$layout              = isset( $settings['layout'] ) ? $settings['layout'] : 'layout-1';
-		$per_row             = isset( $settings['categoriesPerRow'] ) ? absint( $settings['categoriesPerRow'] ) : 3;
-		$per_row_tablet      = isset( $settings['categoriesPerRow_tablet'] ) ? absint( $settings['categoriesPerRow_tablet'] ) : 2;
-		$per_row_mobile      = isset( $settings['categoriesPerRow_mobile'] ) ? absint( $settings['categoriesPerRow_mobile'] ) : 1;
-		$per_row_three           = isset( $settings['categoriesPerRowThree'] ) ? absint( $settings['categoriesPerRowThree'] ) : 8;
-		$per_row_tablet_three      = isset( $settings['categoriesPerRowThree_tablet'] ) ? absint( $settings['categoriesPerRowThree_tablet'] ) : 4;
-		$per_row_mobile_three      = isset( $settings['categoriesPerRowThree_mobile'] ) ? absint( $settings['categoriesPerRowThree_mobile'] ) : 2;
+		$per_row             = isset( $settings['categoriesPerRow'] ) ? absint( $settings['categoriesPerRow'] ) : 6;
+		$per_row_tablet      = isset( $settings['categoriesPerRow_tablet'] ) ? absint( $settings['categoriesPerRow_tablet'] ) : 3;
+		$per_row_mobile      = isset( $settings['categoriesPerRow_mobile'] ) ? absint( $settings['categoriesPerRow_mobile'] ) : 2;
+		$per_row_three           = isset( $settings['categoriesPerRowThree'] ) ? absint( $settings['categoriesPerRowThree'] ) : 4;
+		$per_row_tablet_three      = isset( $settings['categoriesPerRowThree_tablet'] ) ? absint( $settings['categoriesPerRowThree_tablet'] ) : 2;
+		$per_row_mobile_three      = isset( $settings['categoriesPerRowThree_mobile'] ) ? absint( $settings['categoriesPerRowThree_mobile'] ) : 1;
 		$show_category_image = isset( $settings['showCategoryImage'] ) && 'yes' === $settings['showCategoryImage'] ? true : false;
 		$show_category_count = isset( $settings['showCategoryCount'] ) && 'yes' === $settings['showCategoryCount'] ? true : false;
 		$show_category_name  = isset( $settings['showCategoryName'] ) && 'yes' === $settings['showCategoryName'] ? true : false;

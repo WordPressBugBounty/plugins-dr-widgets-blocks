@@ -7,4 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'DR_Widgets_Blocks\\DR_Widgets_Blocks' => $baseDir . '/src/DR_Widgets_Blocks.php',
+    'DR_Widgets_Blocks\\DR_Widgets_Blocks_Admin' => $baseDir . '/src/DR_Widgets_Blocks_Admin.php',
+    'DR_Widgets_Blocks\\DR_Widgets_Blocks_Public' => $baseDir . '/src/DR_Widgets_Blocks_Public.php',
+    'DR_Widgets_Blocks\\DR_Widgets_Blocks_Styles' => $baseDir . '/src/DR_Widgets_Blocks_Styles.php',
 );

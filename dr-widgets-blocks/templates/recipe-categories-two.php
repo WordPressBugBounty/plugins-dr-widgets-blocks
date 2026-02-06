@@ -33,14 +33,9 @@ use Elementor\Utils;
 					}
 				}
 			} elseif ( 'icon' === $settings['image_selector'] ) {
-				if ( $settings['tax_svg'] ) {
-					// Function delicious_recipes_get_svg escapes the output.
-					$svg = delicious_recipes_get_svg( $settings['tax_svg'], 'recipe-keys', '#000000' );
-					if ( $svg ) {
-						echo $svg; 
-					}
-				} else {
-					delicious_recipes_get_fallback_svg( 'medium' );
+				if ( $settings['category'] ) {
+					// Function delicious_recipes_get_tax_icon escapes the output.
+					delicious_recipes_get_tax_icon( $settings['category']);
 				}
 			}
 			?>

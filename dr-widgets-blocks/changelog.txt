@@ -1,3 +1,15 @@
+1.1.6: 2026-02-02
+- Update: Demo URLs updated to new domain in language files, readme, and template scripts.
+- Fix: Default value for recipe categories three widget has been fixed.
+- Fix: Normalized term handling in get_terms calls across recipe category widgets.
+- Fix: Slider not showing on Elementor editor page when Elementor Pro is activated has been fixed.
+
+1.1.5: 2026-01-07
+- Fix: Minor bug fixes.
+
+1.1.4: 2025-10-06
+- Fix: Vulnerability found due to missing capability check on a function has been patched.
+
 1.1.3: 2025-05-22
 - Fix: Template not importing issue has been fixed.
 

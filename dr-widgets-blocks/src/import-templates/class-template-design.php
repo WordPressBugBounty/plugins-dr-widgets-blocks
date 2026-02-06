@@ -62,7 +62,7 @@ class Templates_Design {
      * @return array
      */
     public function get_templates_array(){
-        $apiData =  wp_remote_get("https://demo.wpdelicious.com/widgets-blocks-demo/wp-json/delisho-elementor-templates/v1/patterns/");
+        $apiData =  wp_remote_get("https://wpdeliciousdemo.com/widgets-blocks-demo/wp-json/delisho-elementor-templates/v1/patterns/");
        
         if( ! is_wp_error( $apiData ) && wp_remote_retrieve_response_code( $apiData ) == 200){
             $body = wp_remote_retrieve_body( $apiData );

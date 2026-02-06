@@ -5,7 +5,7 @@ Tags:  food, cooking, recipes, elementor, widgets
 Requires at least: 5.5
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.1.3
+Stable tag: 1.1.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -29,81 +29,81 @@ So get started today and see the difference Delisho can make in your recipe blog
 
 == Here is the list of FREE Elementor widgets: ==
 
-* **[_Recipe Posts_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts/)** - Dynamically showcase your recipes using filters (latest, categories, or custom selection). Choose from three layout options and extensive customization features. All recipe posts will be displayed in a horizontal layout.
+* **[_Recipe Posts_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-posts/)** - Dynamically showcase your recipes using filters (latest, categories, or custom selection). Choose from three layout options and extensive customization features. All recipe posts will be displayed in a horizontal layout.
 
-* **[_Recipe Categories Tab_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab/)** - List all of the recipe categories and display them in a tab on the page. You can show the category name or view the related posts just below the tab.
+* **[_Recipe Categories Tab_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-categories-tab/)** - List all of the recipe categories and display them in a tab on the page. You can show the category name or view the related posts just below the tab.
 
-* **[_Recipe Categories Tab 2_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab-2/)** - Display your recipes category-wise in a sliding tab, with 2 layout options. Fully customize how you want to show your recipes for a sleek, organized look.
+* **[_Recipe Categories Tab 2_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-categories-tab-2/)** - Display your recipes category-wise in a sliding tab, with 2 layout options. Fully customize how you want to show your recipes for a sleek, organized look.
 
-* **[_Recipe Posts Carousel_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel/)** - Showcase your recipe posts in an attractive and interactive carousel. Choose from three layouts to match your website's style perfectly.
+* **[_Recipe Posts Carousel_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-posts-carousel/)** - Showcase your recipe posts in an attractive and interactive carousel. Choose from three layouts to match your website's style perfectly.
 
-* **[_Recipe Posts Carousel 2_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-2/)** - Showcase your recipe posts in a dynamic carousel with 3 layout styles. Use post filters and various adjustable settings to make your recipes even more immersive.
+* **[_Recipe Posts Carousel 2_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-posts-carousel-2/)** - Showcase your recipe posts in a dynamic carousel with 3 layout styles. Use post filters and various adjustable settings to make your recipes even more immersive.
 
-* **[_Recipe Posts Carousel 3_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-3/)** - Present your recipe posts on a big sliding canvas. Choose from 2 layouts—both feature large images of your recipes, to make your recipe posts stand out.
+* **[_Recipe Posts Carousel 3_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-posts-carousel-3/)** - Present your recipe posts on a big sliding canvas. Choose from 2 layouts—both feature large images of your recipes, to make your recipe posts stand out.
 
-* **[_Recipe Post List 1_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-1/)** - Present your recipes in style with customizable titles, images, categories, and even a bookmarking option for your visitors. All recipe posts will be displayed in a horizontal layout.
+* **[_Recipe Post List 1_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-post-list-1/)** - Present your recipes in style with customizable titles, images, categories, and even a bookmarking option for your visitors. All recipe posts will be displayed in a horizontal layout.
 
-* **[_Recipe Post List 2_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-2/)** - Showcase your recipes in a horizontal layout with side by side layout or alternating rows for a dynamic visual experience. Highlight the recipe's image as the hero element.
+* **[_Recipe Post List 2_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-post-list-2/)** - Showcase your recipes in a horizontal layout with side by side layout or alternating rows for a dynamic visual experience. Highlight the recipe's image as the hero element.
 
-* **[_Recipe Post List 3_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-2/)** - Display your recipes in a horizontal layout, featuring one hero recipe that you can choose to highlight. This widget also offers three layout options and extensive customization choices.
+* **[_Recipe Post List 3_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-post-list-2/)** - Display your recipes in a horizontal layout, featuring one hero recipe that you can choose to highlight. This widget also offers three layout options and extensive customization choices.
 
-* **[_Recipe Grid 1_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-1/)** - Showcase your recipes in a visually appealing grid format on any Elementor page. Filter by latest, random, popular, or specific categories. Recipe titles and other details are displayed directly within the image. 
+* **[_Recipe Grid 1_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-grid-1/)** - Showcase your recipes in a visually appealing grid format on any Elementor page. Filter by latest, random, popular, or specific categories. Recipe titles and other details are displayed directly within the image. 
 
-* **[_Recipe Grid 2_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-2/)** - Present your recipes in a clean and organized grid layout with an image at the top and recipe details (titles, icons, etc.) stacked neatly below. Choose from three layout options and customize the look and feel to match your website's style.
+* **[_Recipe Grid 2_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-grid-2/)** - Present your recipes in a clean and organized grid layout with an image at the top and recipe details (titles, icons, etc.) stacked neatly below. Choose from three layout options and customize the look and feel to match your website's style.
 
-* **[_Recipe Categories 1_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-1/)** - Display recipe categories in a user-friendly side-by-side layout. Use filters to browse by course, cuisine, or your own custom selections, including the total number of recipes. Choose from various color options for each category and customize the layout to match your website's style.
+* **[_Recipe Categories 1_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-categories-1/)** - Display recipe categories in a user-friendly side-by-side layout. Use filters to browse by course, cuisine, or your own custom selections, including the total number of recipes. Choose from various color options for each category and customize the layout to match your website's style.
 
-* **[_Recipe Categories 2_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-2/)** - Showcase your recipe categories in a minimalist layout. Choose from three layout options and extensive customization features to personalize the look and feel.
+* **[_Recipe Categories 2_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-categories-2/)** - Showcase your recipe categories in a minimalist layout. Choose from three layout options and extensive customization features to personalize the look and feel.
 
-* **[_Recipe Categories 3_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-3/)** - Display your recipe categories in a partial overlay layout.  Each category tile features an image with recipe details (titles, icons, etc.) neatly stacked below.
+* **[_Recipe Categories 3_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-categories-3/)** - Display your recipe categories in a partial overlay layout.  Each category tile features an image with recipe details (titles, icons, etc.) neatly stacked below.
 
-* **[_Recipe Grid Module 1_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-1/)** - Showcase your most desirable recipe posts in visually appealing grid layouts. Put one special recipe in the spotlight with a larger image to capture your readers' attention instantly. This widget comes with predefined tiles for an elegant look.
+* **[_Recipe Grid Module 1_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-grid-module-1/)** - Showcase your most desirable recipe posts in visually appealing grid layouts. Put one special recipe in the spotlight with a larger image to capture your readers' attention instantly. This widget comes with predefined tiles for an elegant look.
 
-* **[_Recipe Grid Module 2_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-2/)** - Showcase your most tempting recipe posts in three pre-designed tiles. Each tile features a large image with recipe details (titles, icons, etc.) stacked neatly below.
+* **[_Recipe Grid Module 2_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-grid-module-2/)** - Showcase your most tempting recipe posts in three pre-designed tiles. Each tile features a large image with recipe details (titles, icons, etc.) stacked neatly below.
 
-* **[_Advanced Heading_](https://demo.wpdelicious.com/widgets-blocks-demo/advanced-heading/)** - Create eye-catching headings that perfectly complement your design vision. Choose from 10 diverse layouts to match your unique style.
+* **[_Advanced Heading_](https://wpdeliciousdemo.com/widgets-blocks-demo/advanced-heading/)** - Create eye-catching headings that perfectly complement your design vision. Choose from 10 diverse layouts to match your unique style.
 
 == Here is the list of PRO Elementor widgets: ==
 
-* **[_Recipe Post List 4_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-post-list-4/) (PRO)** - Present your recipes in a clear and concise bulleted list format with automatic post numbering. This widget offers five layout options and extensive customization features to match your website's style.
+* **[_Recipe Post List 4_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-post-list-4/) (PRO)** - Present your recipes in a clear and concise bulleted list format with automatic post numbering. This widget offers five layout options and extensive customization features to match your website's style.
 
-* **[_Recipe Grid 3_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-3/) (PRO)** - Capture attention with a visually stunning recipe grid layout featuring large, eye-catching images. Include essential recipe details like recipe keys, difficulty level, and cook time, displayed minimally alongside the images.
+* **[_Recipe Grid 3_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-grid-3/) (PRO)** - Capture attention with a visually stunning recipe grid layout featuring large, eye-catching images. Include essential recipe details like recipe keys, difficulty level, and cook time, displayed minimally alongside the images.
 
-* **[_Recipe Grid 4_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-4/) (PRO)** - Showcase your recipes in a visually appealing grid format with the image and recipe information (title, icons, etc.) consistently displayed on top. You can also choose a layout to display the numbering for each recipe post.
+* **[_Recipe Grid 4_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-grid-4/) (PRO)** - Showcase your recipes in a visually appealing grid format with the image and recipe information (title, icons, etc.) consistently displayed on top. You can also choose a layout to display the numbering for each recipe post.
 
-* **[_Recipe Grid 5_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-5/) (PRO)** - Display your recipes in two distinct layouts: alternating or with recipe post numbering. The alternating layout creates a dynamic browsing experience by switching the image and content positions between each recipe.
+* **[_Recipe Grid 5_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-grid-5/) (PRO)** - Display your recipes in two distinct layouts: alternating or with recipe post numbering. The alternating layout creates a dynamic browsing experience by switching the image and content positions between each recipe.
 
-* **[_Recipe Categories 4_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-4/) (PRO)** - Display your recipe categories in three distinct layouts. Choose from a rectangle, circle, or capsule for the thumbnail image.
+* **[_Recipe Categories 4_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-categories-4/) (PRO)** - Display your recipe categories in three distinct layouts. Choose from a rectangle, circle, or capsule for the thumbnail image.
 
-* **[_Recipe Grid Module 3_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-3/) (PRO)** - Showcase your most tempting recipe posts in five stylish, pre-designed tiles. Choose from grid layouts with a mix of horizontal and vertical placements, or select rectangle, circle, or capsule shapes for your thumbnail images.
+* **[_Recipe Grid Module 3_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-grid-module-3/) (PRO)** - Showcase your most tempting recipe posts in five stylish, pre-designed tiles. Choose from grid layouts with a mix of horizontal and vertical placements, or select rectangle, circle, or capsule shapes for your thumbnail images.
 
-* **[_Recipe Grid Module 4_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-4/) (PRO)** - Create dynamic recipe grids with a variety of layouts! Choose from five different options featuring a mix of horizontal and vertical placements, all with a central recipe highlighted for extra impact.
+* **[_Recipe Grid Module 4_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-grid-module-4/) (PRO)** - Create dynamic recipe grids with a variety of layouts! Choose from five different options featuring a mix of horizontal and vertical placements, all with a central recipe highlighted for extra impact.
 
-* **[_Recipe Grid Module 5_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-5/) (PRO)** - Present a curated selection of recipes in a visually engaging grid layout. Choose from four unique layouts featuring a mix of horizontal and vertical placements to match your website's style perfectly. 
+* **[_Recipe Grid Module 5_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-grid-module-5/) (PRO)** - Present a curated selection of recipes in a visually engaging grid layout. Choose from four unique layouts featuring a mix of horizontal and vertical placements to match your website's style perfectly. 
 
-* **[_Recipe Grid Module 6_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-grid-module-6/) (PRO)** - Showcase a curated selection of recipes in a visually engaging grid layout. Choose from layouts that combine horizontal and vertical placements, or select rectangle, circle, or capsule shapes for your thumbnail images.
+* **[_Recipe Grid Module 6_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-grid-module-6/) (PRO)** - Showcase a curated selection of recipes in a visually engaging grid layout. Choose from layouts that combine horizontal and vertical placements, or select rectangle, circle, or capsule shapes for your thumbnail images.
 
-* **[_Recipe Accordion 1_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-accordion-1/) (PRO)** - Display multiple recipe cards in an interactive vertical accordion. Just hover on the card and it will automatically expand to show the content inside of it.
+* **[_Recipe Accordion 1_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-accordion-1/) (PRO)** - Display multiple recipe cards in an interactive vertical accordion. Just hover on the card and it will automatically expand to show the content inside of it.
 
-* **[_Recipe Accordion 2_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-accordion-2/) (PRO)** - Organize your multiple recipe cards in an interactive vertical accordion. Just click on the card and it will automatically expand to show the content inside of it.
+* **[_Recipe Accordion 2_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-accordion-2/) (PRO)** - Organize your multiple recipe cards in an interactive vertical accordion. Just click on the card and it will automatically expand to show the content inside of it.
 
-* **[_Recipe Categories Tab 3_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab-3/) (PRO)** - Show off your recipe categories in a sleek tab with three different layouts. Adjust which categories and how many recipe cards you want to show to customize the tab.
+* **[_Recipe Categories Tab 3_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-categories-tab-3/) (PRO)** - Show off your recipe categories in a sleek tab with three different layouts. Adjust which categories and how many recipe cards you want to show to customize the tab.
 
-* **[_Recipe Categories Tab 4_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-tab-4/) (PRO)** - Offer a glimpse of your recipe collection with attractive recipe cards that can be filtered according to categories. Choose between 2 simple layouts or create your own by customizing the tab to your liking.
+* **[_Recipe Categories Tab 4_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-categories-tab-4/) (PRO)** - Offer a glimpse of your recipe collection with attractive recipe cards that can be filtered according to categories. Choose between 2 simple layouts or create your own by customizing the tab to your liking.
 
-* **[_Recipe Posts Carousel 4_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-4/) (PRO)** - Showcase your recipe posts with 4 unique carousel layouts, including bold hero images and minimalistic designs. Display details like categories, difficulty, cooking time, and recipe keys on the cards.
+* **[_Recipe Posts Carousel 4_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-posts-carousel-4/) (PRO)** - Showcase your recipe posts with 4 unique carousel layouts, including bold hero images and minimalistic designs. Display details like categories, difficulty, cooking time, and recipe keys on the cards.
 
-* **[_Recipe Posts Carousel 5_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-5/) (PRO)** - Interactive carousel to display your recipe cards in 3 unique layouts. Choose from coverflow or spotlight design layouts with recipe details like categories, difficulty, cooking time, and more.
+* **[_Recipe Posts Carousel 5_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-posts-carousel-5/) (PRO)** - Interactive carousel to display your recipe cards in 3 unique layouts. Choose from coverflow or spotlight design layouts with recipe details like categories, difficulty, cooking time, and more.
 
-* **[_Recipe Posts Carousel 6_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-posts-carousel-6/) (PRO)** - Showcase your recipe collection with a dynamic carousel. Choose from 3 different hero sliders - one with small thumbnails, one with text, and one with a recipe list on the right.
+* **[_Recipe Posts Carousel 6_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-posts-carousel-6/) (PRO)** - Showcase your recipe collection with a dynamic carousel. Choose from 3 different hero sliders - one with small thumbnails, one with text, and one with a recipe list on the right.
 
-* **[_Advanced Recipe Slider_](https://demo.wpdelicious.com/widgets-blocks-demo/advanced-recipe-slider/) (PRO)** - Display your recipes in a slider with 3 layout options: one with the CTA on the left and the slider on the right, and two with the CTA above the slider. Add details to your recipe cards like images, categories, cooking time, difficulty, and recipe keys.
+* **[_Advanced Recipe Slider_](https://wpdeliciousdemo.com/widgets-blocks-demo/advanced-recipe-slider/) (PRO)** - Display your recipes in a slider with 3 layout options: one with the CTA on the left and the slider on the right, and two with the CTA above the slider. Add details to your recipe cards like images, categories, cooking time, difficulty, and recipe keys.
 
-* **[_Recipe Categories Slider_](https://demo.wpdelicious.com/widgets-blocks-demo/recipe-categories-slider/) (PRO)** - Dynamic slider to showcase your recipe categories and the number of recipes in each. Select from four layout options: capsule, square, and two coverflow variations.
+* **[_Recipe Categories Slider_](https://wpdeliciousdemo.com/widgets-blocks-demo/recipe-categories-slider/) (PRO)** - Dynamic slider to showcase your recipe categories and the number of recipes in each. Select from four layout options: capsule, square, and two coverflow variations.
 
-* **[_Recipe Ingredients_](https://demo.wpdelicious.com/widgets-blocks-demo/custom-recipe-index/) (PRO)** - Organize a list of ingredients alphabetically to help users easily find recipes. Show the number of recipes linked to each ingredient, making it simple to explore your offerings.
+* **[_Recipe Ingredients_](https://wpdeliciousdemo.com/widgets-blocks-demo/custom-recipe-index/) (PRO)** - Organize a list of ingredients alphabetically to help users easily find recipes. Show the number of recipes linked to each ingredient, making it simple to explore your offerings.
 
-* **[_Recipe Search_](https://demo.wpdelicious.com/widgets-blocks-demo/custom-recipe-index/) (PRO)** - Enhance navigation with a dynamic search bar that helps readers to find their ideal recipe. Filters include cuisine, cooking methods, ingredients, dietary preferences, difficulty levels, and more for a personalized browsing experience.
+* **[_Recipe Search_](https://wpdeliciousdemo.com/widgets-blocks-demo/custom-recipe-index/) (PRO)** - Enhance navigation with a dynamic search bar that helps readers to find their ideal recipe. Filters include cuisine, cooking methods, ingredients, dietary preferences, difficulty levels, and more for a personalized browsing experience.
 
 == 4+ Gutenberg Blocks and Counting ==
 
@@ -164,6 +164,18 @@ We also have an active Facebook Community of [WP Delicious](https://www.facebook
 4. Activate the plugin in the Plugin dashboard
 
 == Changelog ==
+
+= 1.1.6 - 2nd February 2026 =
+* Update: Demo URLs updated to new domain in language files, readme, and template scripts.
+* Fix: Default value for recipe categories three widget has been fixed.
+* Fix: Normalized term handling in get_terms calls across recipe category widgets.
+* Fix: Slider not showing on Elementor editor page when Elementor Pro is activated has been fixed.
+
+= 1.1.5 - 7th January 2026 =
+* Fix: Minor bug fixes.
+
+= 1.1.4 - 6th October 2025 =
+* Fix: Vulnerability found due to missing capability check on a function has been patched.
 
 = 1.1.3 - 22nd May 2025 =
 * Fix: Template not importing issue has been fixed.

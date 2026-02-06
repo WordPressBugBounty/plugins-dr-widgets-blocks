@@ -13,14 +13,14 @@ class ComposerStaticInitc6f06a3199f6c04eea429207ea017fc2
     );
 
     public static $prefixLengthsPsr4 = array (
-        'D' => 
+        'D' =>
         array (
             'DR_Widgets_Blocks\\' => 18,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'DR_Widgets_Blocks\\' => 
+        'DR_Widgets_Blocks\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -28,6 +28,10 @@ class ComposerStaticInitc6f06a3199f6c04eea429207ea017fc2
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'DR_Widgets_Blocks\\DR_Widgets_Blocks' => __DIR__ . '/../..' . '/src/DR_Widgets_Blocks.php',
+        'DR_Widgets_Blocks\\DR_Widgets_Blocks_Admin' => __DIR__ . '/../..' . '/src/DR_Widgets_Blocks_Admin.php',
+        'DR_Widgets_Blocks\\DR_Widgets_Blocks_Public' => __DIR__ . '/../..' . '/src/DR_Widgets_Blocks_Public.php',
+        'DR_Widgets_Blocks\\DR_Widgets_Blocks_Styles' => __DIR__ . '/../..' . '/src/DR_Widgets_Blocks_Styles.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

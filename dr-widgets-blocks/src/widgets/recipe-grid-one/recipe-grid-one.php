@@ -627,7 +627,7 @@ class Widget_Recipe_Grid_One extends Widget {
 				'label'     => esc_html__( 'Background', 'dr-widgets-blocks' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'selectors' => array(
-					'{{WRAPPER}} .dr-widgetBlock_content-wrap' => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .dr-widgetBlock_recipe-post' => '--background-color: {{VALUE}};',
 				),
 			)
 		);
